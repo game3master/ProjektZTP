@@ -58,6 +58,14 @@ namespace KCK_Window_project
         {
             this.hp = hp;
         }
+        public void SetX(int posX)
+        {
+            this.posX = posX;
+        }
+        public void SetY(int posY)
+        {
+            this.posY = posY;
+        }
 
         //metody
         public void Move(char[,] board)//board[15, 10]

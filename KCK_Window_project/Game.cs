@@ -17,6 +17,7 @@ namespace KCK_Window_project
     {
         Hero hero;
         Resources resources;
+        Strategy strategy;
 
         public static int wood = 1500;
         public static int stone = 1500;
@@ -50,8 +51,21 @@ namespace KCK_Window_project
 
         }
 
+        // Ustawienie strategii
+        public void SetStrategy(Strategy strategy)
+        {
+            this.strategy = strategy;
+        }
+
+        // Wykonanie metody strategii - ruch
+        public void MoveStrategy(Enemy enemy)
+        {
+            strategy.Move(enemy);
+        }
+
         private void Game_Load(object sender, EventArgs e)
         {
+            SetStrategy(new HardStrategy());
             //hero = new Hero();
             hero = Hero.getInstance();
             //resources = new Resources();
@@ -398,10 +412,11 @@ namespace KCK_Window_project
                     else
                     {
                         ClearSquare(enemy);
-                        GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
-                        enemy.Move(GameBoard.board);
+                        MoveStrategy(enemy);
+                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
+                        //enemy.Move(GameBoard.board);
                         FillSquare(enemy);
-                        GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
+                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
                     }
                     if (enemy.GetY() == 9)
                     {

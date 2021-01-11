@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EasyStrategy.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="Game.cs">
       <SubType>Form</SubType>
@@ -54,6 +55,7 @@
       <DependentUpon>Game.cs</DependentUpon>
     </Compile>
     <Compile Include="GameBoard.cs" />
+    <Compile Include="HardStrategy.cs" />
     <Compile Include="Hero.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,6 +65,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Resources.cs" />
+    <Compile Include="Strategy.cs" />
     <Compile Include="Turret.cs" />
     <EmbeddedResource Include="Game.resx">
       <DependentUpon>Game.cs</DependentUpon>
