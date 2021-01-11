@@ -11,11 +11,20 @@ namespace KCK_Window_project
         private int posX;
         private int posY;
 
-        //konstruktor
-        public Hero()
+        /* Singleton - Hero */
+        private static Hero instance;
+
+        private Hero()
         {
             posX = 5;
             posY = 13;
+        }
+
+        public static Hero getInstance()
+        {
+            if (instance == null)
+                instance = new Hero();
+            return instance;
         }
 
         //gettery

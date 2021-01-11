@@ -52,8 +52,10 @@ namespace KCK_Window_project
 
         private void Game_Load(object sender, EventArgs e)
         {
-            hero = new Hero();
-            resources = new Resources();
+            //hero = new Hero();
+            hero = Hero.getInstance();
+            //resources = new Resources();
+            resources = Resources.getInstance();
             GameBoard.CreateBoard();
             InitializeLists();
 

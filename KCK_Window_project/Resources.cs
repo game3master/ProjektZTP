@@ -11,11 +11,20 @@ namespace KCK_Window_project
         private int woodCurrentPhase;
         private int stoneCurrentPhase;
 
-        //konstruktor
-        public Resources()
+        /* Singleton - Resources */
+        private static Resources instance;
+
+        private Resources()
         {
             woodCurrentPhase = 0;
             stoneCurrentPhase = 0;
+        }
+
+        public static Resources getInstance()
+        {
+            if (instance == null)
+                instance = new Resources();
+            return instance;
         }
 
         //gettery
