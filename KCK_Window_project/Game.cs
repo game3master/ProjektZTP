@@ -35,6 +35,8 @@ namespace KCK_Window_project
         List<Turret> turretList = new List<Turret>();
         List<Enemy> enemiesUnderWall = new List<Enemy>();
 
+        Dictionary<string, Enemy> enemyTypes = new Dictionary<string, Enemy>();
+
         public Game()
         {
             InitializeComponent();
@@ -63,6 +65,18 @@ namespace KCK_Window_project
             strategy.Move(enemy);
         }
 
+        // Indexer od wzorca Prototype - pobranie przeciwnika
+        public Enemy GetEnemy(string key)
+        {
+            return enemyTypes[key];
+        }
+
+        // Indexer od wzorca Prototype - dodanie typu przeciwnika
+        public void SetEnemy(string key, Enemy enemy)
+        {
+            enemyTypes.Add(key, enemy);
+        }
+
         private void Game_Load(object sender, EventArgs e)
         {
             SetStrategy(new HardStrategy());
@@ -72,6 +86,9 @@ namespace KCK_Window_project
             resources = Resources.getInstance();
             GameBoard.CreateBoard();
             InitializeLists();
+
+            // Prototyp
+            SetEnemy("basic", new BasicEnemy());
 
             FillSquare();
             labelWood.Font = new Font("Arial", 24);
@@ -393,7 +410,10 @@ namespace KCK_Window_project
         //Timer od tworzenia przeciwnikow
         private void EnemyCreateTimer_Tick(object sender, EventArgs e)
         {
-            Enemy enemy = new Enemy();
+            //Enemy enemy = new Enemy();
+            BasicEnemy enemy = GetEnemy("basic").Clone() as BasicEnemy;
+            Random rnd = new Random();//
+            enemy.SetX(rnd.Next(10));//
             enemyList.Add(enemy);
             GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
             FillSquare(enemy);
