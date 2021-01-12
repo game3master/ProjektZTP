@@ -67,6 +67,7 @@
     </Compile>
     <Compile Include="Resources.cs" />
     <Compile Include="Strategy.cs" />
+    <Compile Include="TankEnemy.cs" />
     <Compile Include="Turret.cs" />
     <EmbeddedResource Include="Game.resx">
       <DependentUpon>Game.cs</DependentUpon>

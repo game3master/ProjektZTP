@@ -89,6 +89,7 @@ namespace KCK_Window_project
 
             // Prototyp
             SetEnemy("basic", new BasicEnemy());
+            SetEnemy("tank", new TankEnemy());
 
             FillSquare();
             labelWood.Font = new Font("Arial", 24);
@@ -155,7 +156,10 @@ namespace KCK_Window_project
                 {
                     //ctrl.BackColor = Color.Green;
                     //ctrl.Text = enemy.GetHP().ToString();
-                    ctrl.Image = Properties.Resources.enemy;
+                    if (enemy.GetEnemyType() == "basic")
+                        ctrl.Image = Properties.Resources.enemy;
+                    else
+                        ctrl.Image = Properties.Resources.stone_phase3;
                 }
             }
         }
@@ -411,9 +415,14 @@ namespace KCK_Window_project
         private void EnemyCreateTimer_Tick(object sender, EventArgs e)
         {
             //Enemy enemy = new Enemy();
-            BasicEnemy enemy = GetEnemy("basic").Clone() as BasicEnemy;
-            Random rnd = new Random();//
-            enemy.SetX(rnd.Next(10));//
+            Random type = new Random();
+            Enemy enemy;
+            if (type.Next(2) == 0)
+                enemy = GetEnemy("basic").Clone() as BasicEnemy;
+            else
+                enemy = GetEnemy("tank").Clone() as TankEnemy;
+            Random rnd = new Random();
+            enemy.SetX(rnd.Next(10));
             enemyList.Add(enemy);
             GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
             FillSquare(enemy);

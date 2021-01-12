@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KCK_Window_project
 {
-    class BasicEnemy : Enemy
+    class TankEnemy : Enemy
     {
         private int hp;
         private int dmg;
@@ -19,9 +19,9 @@ namespace KCK_Window_project
         private string enemyType;
 
         /* Konstruktor */
-        public BasicEnemy()
+        public TankEnemy()
         {
-            hp = 150;
+            hp = 300;
             dmg = 10;
             speed = 1;
 
@@ -30,7 +30,7 @@ namespace KCK_Window_project
             posY = 0;
 
             justCreated = true;
-            enemyType = "basic";
+            enemyType = "tank";
         }
 
         /* Gettery */

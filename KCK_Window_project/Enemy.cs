@@ -13,6 +13,7 @@ namespace KCK_Window_project
         public abstract int GetDmg();
         public abstract int GetHP();
         public abstract bool GetStatus();
+        public abstract string GetEnemyType();
 
         public abstract void SetHP(int hp);
         public abstract void SetX(int posX);
