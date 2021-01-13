@@ -17,12 +17,14 @@ namespace KCK_Window_project
     {
         Hero hero;
         Resources resources;
+        //GameBoard gameBoard;
         Strategy strategy;
 
         public static int wood = 1500;
         public static int stone = 1500;
         public static int score = 0;
         public static int hp = 100;
+        public bool enemyMoved;
 
         Timer woodTimer;
         Timer stoneTimer;
@@ -31,15 +33,24 @@ namespace KCK_Window_project
         Timer enemyGetHit;
         Timer enemyAttack;
 
-        List<Enemy> enemyList = new List<Enemy>();
+        private List<Enemy> enemyList = new List<Enemy>();
         List<Turret> turretList = new List<Turret>();
         List<Enemy> enemiesUnderWall = new List<Enemy>();
 
+        // Kolekcja dla wzorca Protoype
         Dictionary<string, Enemy> enemyTypes = new Dictionary<string, Enemy>();
+        // Kolekcja dla wzorca Observer
+        List<Subscriber> subscribers = new List<Subscriber>();
 
         public Game()
         {
             InitializeComponent();
+        }
+
+        /* Gettery */
+        public List<Enemy> GetEnemyList()
+        {
+            return enemyList;
         }
 
         //inicjalizowanie list nullami
@@ -51,6 +62,27 @@ namespace KCK_Window_project
                 enemiesUnderWall.Add(null);
             }
 
+        }
+
+        // Dodanie subskrybenta
+        public void Subscribe(Subscriber subscriber)
+        {
+            subscribers.Add(subscriber);
+        }
+
+        // Usuniecie subskrybenta
+        public void Unsubscribe(Subscriber subscriber)
+        {
+            subscribers.Remove(subscriber);
+        }
+
+        // Powiadomienie subskrybentow
+        public void NotifySubscribers()
+        {
+            foreach (Subscriber s in subscribers)
+            {
+                s.update(this);
+            }
         }
 
         // Ustawienie strategii
@@ -79,15 +111,19 @@ namespace KCK_Window_project
 
         private void Game_Load(object sender, EventArgs e)
         {
+            // Observer
+            Subscribe(GameBoard.GetInstance());
+
             SetStrategy(new HardStrategy());
             //hero = new Hero();
             hero = Hero.getInstance();
             //resources = new Resources();
             resources = Resources.getInstance();
-            GameBoard.CreateBoard();
+            //GameBoard.CreateBoard();
+
             InitializeLists();
 
-            // Prototyp
+            // Prototype
             SetEnemy("basic", new BasicEnemy());
             SetEnemy("tank", new TankEnemy());
 
@@ -424,6 +460,7 @@ namespace KCK_Window_project
             Random rnd = new Random();
             enemy.SetX(rnd.Next(10));
             enemyList.Add(enemy);
+            //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
             GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
             FillSquare(enemy);
         }
@@ -440,11 +477,15 @@ namespace KCK_Window_project
                     }
                     else
                     {
+                        enemyMoved = false;
                         ClearSquare(enemy);
+                        NotifySubscribers();
                         MoveStrategy(enemy);
                         //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                         //enemy.Move(GameBoard.board);
+                        enemyMoved = true;
                         FillSquare(enemy);
+                        NotifySubscribers();
                         //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
                     }
                     if (enemy.GetY() == 9)
@@ -499,6 +540,7 @@ namespace KCK_Window_project
                 foreach (Enemy enemy in supportList)
                 {
                     ClearSquare(enemy);
+                    //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                     GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                     enemiesUnderWall.RemoveAt(enemy.GetX());
                     enemiesUnderWall.Insert(enemy.GetX(), null);

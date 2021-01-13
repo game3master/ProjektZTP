@@ -10,9 +10,9 @@ namespace KCK_Window_project
     {
         void Strategy.Move(Enemy enemy)
         {
-            GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
+            //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
             enemy.Move();
-            GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
+            //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
         }
     }
 }

@@ -31,12 +31,12 @@ namespace KCK_Window_project
                     // Sprawdzenie czy obok nie zajmuje ktos miejsca
                     if (GameBoard.board[enemy.GetY() + 1, enemy.GetX() + 1] == '.')
                     {
-                        GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
+                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                         int newPosX = enemy.GetX() + 1;
                         int newPosY = enemy.GetY() + 1;
                         enemy.SetX(newPosX);
                         enemy.SetY(newPosY);
-                        GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
+                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
                         return;
                     }
                 }
@@ -46,12 +46,12 @@ namespace KCK_Window_project
                     // Sprawdzenie czy obok nie zajmuje ktos miejsca
                     if (GameBoard.board[enemy.GetY() + 1, enemy.GetX() - 1] == '.')
                     {
-                        GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
+                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                         int newPosX = enemy.GetX() - 1;
                         int newPosY = enemy.GetY() + 1;
                         enemy.SetX(newPosX);
                         enemy.SetY(newPosY);
-                        GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
+                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
                         return;
                     }
                 }
@@ -61,12 +61,12 @@ namespace KCK_Window_project
                     // Sprawdzenie czy obok nie zajmuje ktos miejsca
                     if (GameBoard.board[enemy.GetY() + 1, enemy.GetX() - 1] == '.')
                     {
-                        GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
+                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                         int newPosX = enemy.GetX() - 1;
                         int newPosY = enemy.GetY() + 1;
                         enemy.SetX(newPosX);
                         enemy.SetY(newPosY);
-                        GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
+                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
                         return;
                     }
                 }
@@ -76,21 +76,21 @@ namespace KCK_Window_project
                     // Sprawdzenie czy obok nie zajmuje ktos miejsca
                     if (GameBoard.board[enemy.GetY() + 1, enemy.GetX() + 1] == '.')
                     {
-                        GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
+                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                         int newPosX = enemy.GetX() + 1;
                         int newPosY = enemy.GetY() + 1;
                         enemy.SetX(newPosX);
                         enemy.SetY(newPosY);
-                        GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
+                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
                         return;
                     }
                 }
             }
             else
             {
-                GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
+                //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                 enemy.Move();
-                GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
+                //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
             }
         }
     }

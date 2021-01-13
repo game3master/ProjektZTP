@@ -76,6 +76,7 @@ namespace KCK_Window_project
         /* Metody */
         public override void Move()//board[15, 10]
         {
+            
             // Jezeli wyszedlby za sciane
             if (posY + speed >= 10)
                 return;
