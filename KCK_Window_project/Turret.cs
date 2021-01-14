@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace KCK_Window_project
 {
@@ -106,10 +107,10 @@ namespace KCK_Window_project
             {
                 case 2:
                     ammo = 5;
-                    return TurretFactory.GetTurretType(2, 75, "phase_2");
+                    return TurretFactory.GetTurretType(2, 75, "phase_2", Properties.Resources.turret_phase2);
                 default:
                     ammo = 8;
-                    return TurretFactory.GetTurretType(3, 100, "phase_3");
+                    return TurretFactory.GetTurretType(3, 100, "phase_3", Properties.Resources.turret_phase3);
             }
         }
         

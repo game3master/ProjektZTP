@@ -128,9 +128,9 @@ namespace KCK_Window_project
             SetEnemy("tank", new TankEnemy());
 
             // Flyweight
-            TurretFactory.GetTurretType(1, 50, "phase_1");
-            TurretFactory.GetTurretType(2, 75, "phase_2");
-            TurretFactory.GetTurretType(3, 100, "phase_3");
+            //TurretFactory.GetTurretType(1, 50, "phase_1");
+            //TurretFactory.GetTurretType(2, 75, "phase_2");
+            //TurretFactory.GetTurretType(3, 100, "phase_3");
 
             FillSquare();
             labelWood.Font = new Font("Arial", 24);
@@ -249,6 +249,7 @@ namespace KCK_Window_project
             {
                 if (ctrl.Name == searched)
                 {
+                    /*
                     //switch (turret.GetLevel())
                     switch (turret.GetTurretType().GetLevel())
                     {
@@ -268,6 +269,9 @@ namespace KCK_Window_project
                             ctrl.Image = Properties.Resources.turret_phase3;
                             break;
                     }
+                    */
+                    ctrl.Text = turret.GetTurretType().GetLevel().ToString() + turret.GetAmmo().ToString();
+                    ctrl.Image = turret.GetTurretType().GetImage();
                 }
             }
         }
@@ -363,7 +367,7 @@ namespace KCK_Window_project
                     //budowanie wiezyczki
                     if (hero.GetY() == 11 && hero.CanPlace(turretList) == true)
                     {
-                        TurretType type = TurretFactory.GetTurretType(1, 50, "phase_1");//
+                        TurretType type = TurretFactory.GetTurretType(1, 50, "phase_1", Properties.Resources.turret_phase1);
                         Turret turret = new Turret(hero, type);
                         //Turret turret = new Turret(hero);
                         turretList.RemoveAt(hero.GetX());

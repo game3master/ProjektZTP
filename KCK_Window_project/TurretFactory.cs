@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace KCK_Window_project
 {
@@ -12,7 +13,7 @@ namespace KCK_Window_project
         private static List<TurretType> turretTypes = new List<TurretType>();
 
         // Zwrocenie pylka o pozadanym wewnetrznym stanie.
-        public static TurretType GetTurretType(int level, int dmg, string name)
+        public static TurretType GetTurretType(int level, int dmg, string name, Image image)
         {
             foreach (TurretType t in turretTypes)
             {
@@ -21,7 +22,7 @@ namespace KCK_Window_project
                     return t;
                 }
             }
-            TurretType turret = new TurretType(level, dmg, name);
+            TurretType turret = new TurretType(level, dmg, name, image);
             turretTypes.Add(turret);
             return turret;
         }
