@@ -461,8 +461,8 @@ namespace KCK_Window_project
             enemy.SetX(rnd.Next(10));
             enemyList.Add(enemy);
             //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
-            GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
             FillSquare(enemy);
+            NotifySubscribers();
         }
         //Timer od poruszania sie przeciwnikow
         private void EnemyMoveTimer_Tick(object sender, EventArgs e)
@@ -538,11 +538,11 @@ namespace KCK_Window_project
                 {
                     ClearSquare(enemy);
                     //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
-                    GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                     enemiesUnderWall.RemoveAt(enemy.GetX());
                     enemiesUnderWall.Insert(enemy.GetX(), null);
                     enemyList.Remove(enemy);
                 }
+                NotifySubscribers();
             }
         }
         //Timer od zadawania obrazen przez przeciwnikow
