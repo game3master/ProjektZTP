@@ -179,7 +179,8 @@ namespace KCK_Window_project
             {
                 if (ctrl.Name == searched)
                 {
-                    ctrl.BackColor = Color.Red;
+                    //ctrl.BackColor = Color.Red;
+                    ctrl.Image = Properties.Resources.hero;
                 }
             }
         }
@@ -200,7 +201,7 @@ namespace KCK_Window_project
                     if (enemy.GetEnemyType() == "basic")
                         ctrl.Image = Properties.Resources.enemy;
                     else
-                        ctrl.Image = Properties.Resources.stone_phase3;
+                        ctrl.Image = Properties.Resources.enemyTank;
                 }
             }
         }
@@ -216,7 +217,8 @@ namespace KCK_Window_project
             {
                 if (ctrl.Name == searched)
                 {
-                    ctrl.BackColor = Color.Gray;
+                    //ctrl.BackColor = Color.Gray;
+                    ctrl.Image = null;
                 }
             }
         }
@@ -233,8 +235,8 @@ namespace KCK_Window_project
                 if (ctrl.Name == searched)
                 {
                     ctrl.Image = null;
-                    ctrl.BackColor = Color.Gray;
-                    ctrl.Text = ".";
+                    //ctrl.BackColor = Color.Gray;
+                    //ctrl.Text = ".";
                 }
             }
         }
@@ -270,7 +272,8 @@ namespace KCK_Window_project
                             break;
                     }
                     */
-                    ctrl.Text = turret.GetTurretType().GetLevel().ToString() + turret.GetAmmo().ToString();
+                    ctrl.Text = turret.GetAmmo().ToString();
+                    ctrl.TextAlign = ContentAlignment.TopRight;
                     ctrl.Image = turret.GetTurretType().GetImage();
                 }
             }
@@ -286,7 +289,8 @@ namespace KCK_Window_project
             {
                 if (ctrl.Name == searched)
                 {
-                    ctrl.BackColor = Color.DeepSkyBlue;
+                    ctrl.BackColor = Color.DarkBlue;
+                    ctrl.TextAlign = ContentAlignment.MiddleCenter;
                     ctrl.Text = ".";
                     ctrl.Image = null;
                 }

@@ -138,5 +138,11 @@
   <ItemGroup>
     <None Include="Resources\dmg_dealt_sound.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemyTank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
