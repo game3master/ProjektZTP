@@ -477,15 +477,11 @@ namespace KCK_Window_project
                     }
                     else
                     {
-                        enemyMoved = false;
                         ClearSquare(enemy);
-                        NotifySubscribers();
                         MoveStrategy(enemy);
                         //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                         //enemy.Move(GameBoard.board);
-                        enemyMoved = true;
                         FillSquare(enemy);
-                        NotifySubscribers();
                         //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
                     }
                     if (enemy.GetY() == 9)
@@ -495,6 +491,7 @@ namespace KCK_Window_project
                     }
                 }
             }
+            NotifySubscribers();
         }
         //Timer od zadawania obrazen przeciwnikom
         private void EnemyGetHit_Tick(object sender, EventArgs e)

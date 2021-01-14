@@ -56,7 +56,7 @@ namespace KCK_Window_project
                     }
                 }
                 // Skok w lewo
-                if (direction == 0 && enemy.GetX() - 1 > 0)
+                if (direction == 0 && enemy.GetX() - 1 >= 0)
                 {
                     // Sprawdzenie czy obok nie zajmuje ktos miejsca
                     if (GameBoard.board[enemy.GetY() + 1, enemy.GetX() - 1] == '.')
@@ -71,7 +71,7 @@ namespace KCK_Window_project
                     }
                 }
                 // Skok w prawo
-                if (direction == 1 && enemy.GetX() + 1 < 9)
+                if (direction == 1 && enemy.GetX() + 1 <= 9)
                 {
                     // Sprawdzenie czy obok nie zajmuje ktos miejsca
                     if (GameBoard.board[enemy.GetY() + 1, enemy.GetX() + 1] == '.')

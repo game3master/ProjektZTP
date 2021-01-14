@@ -42,16 +42,17 @@ namespace KCK_Window_project
 
         public override void update(Game game)
         {
+            // Wyczyszczenie mapy
+            for (int i = 0; i < 10; i++)
+                for (int j = 0; j < 10; j++)
+                {
+                    board[i, j] = '.';
+                }
+
+            // Wstawienie przeciwnikow
             foreach (Enemy e in game.GetEnemyList())
             {
-                if (game.enemyMoved == false)
-                {
-                    board[e.GetY(), e.GetX()] = '.';
-                }
-                else
-                {
-                    board[e.GetY(), e.GetX()] = '@';
-                }
+                board[e.GetY(), e.GetX()] = '@';
             }
         }
     }
