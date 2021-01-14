@@ -9,6 +9,5 @@ namespace KCK_Window_project
     public abstract class Subscriber
     {
         public abstract void update(Game game);
-        // przy usuwaniu przeciwnikow bedzie problem chyba
     }
 }

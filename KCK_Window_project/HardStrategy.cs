@@ -12,85 +12,76 @@ namespace KCK_Window_project
 
         void Strategy.Move(Enemy enemy)
         {
-            // 0 - lewo
-            // 1 - prawo
+            // 0 - lewo.
+            // 1 - prawo.
             int direction = rnd.Next(2);
-            // <0, 70> - nie skakac
-            // <71, 99> - skakac
+            // <0, 70> - nie skakac.
+            // <71, 99> - skakac.
             int shouldJump = rnd.Next(100);
 
-            // Jezeli stoi pod sciana
+            // Jezeli stoi pod sciana.
             if (enemy.GetY() == 9)
                 return;
             
             if (shouldJump >= 71 && shouldJump <= 99)
             {
-                // Jezeli przeciwnik idzie przy lewej scianie
+                // Jezeli przeciwnik idzie przy lewej scianie.
                 if (enemy.GetX() == 0)
                 {
-                    // Sprawdzenie czy obok nie zajmuje ktos miejsca
+                    // Sprawdzenie czy obok nie zajmuje ktos miejsca.
                     if (GameBoard.board[enemy.GetY() + 1, enemy.GetX() + 1] == '.')
                     {
-                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                         int newPosX = enemy.GetX() + 1;
                         int newPosY = enemy.GetY() + 1;
                         enemy.SetX(newPosX);
                         enemy.SetY(newPosY);
-                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
                         return;
                     }
                 }
-                // Jezeli przeciwnik idzie przy prawej scianie
+                // Jezeli przeciwnik idzie przy prawej scianie.
                 if (enemy.GetX() == 9)
                 {
-                    // Sprawdzenie czy obok nie zajmuje ktos miejsca
+                    // Sprawdzenie czy obok nie zajmuje ktos miejsca.
                     if (GameBoard.board[enemy.GetY() + 1, enemy.GetX() - 1] == '.')
                     {
-                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                         int newPosX = enemy.GetX() - 1;
                         int newPosY = enemy.GetY() + 1;
                         enemy.SetX(newPosX);
                         enemy.SetY(newPosY);
-                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
                         return;
                     }
                 }
-                // Skok w lewo
+                // Skok w lewo.
                 if (direction == 0 && enemy.GetX() - 1 >= 0)
                 {
-                    // Sprawdzenie czy obok nie zajmuje ktos miejsca
+                    // Sprawdzenie czy obok nie zajmuje ktos miejsca.
                     if (GameBoard.board[enemy.GetY() + 1, enemy.GetX() - 1] == '.')
                     {
-                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                         int newPosX = enemy.GetX() - 1;
                         int newPosY = enemy.GetY() + 1;
                         enemy.SetX(newPosX);
                         enemy.SetY(newPosY);
-                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
                         return;
                     }
                 }
-                // Skok w prawo
+                // Skok w prawo.
                 if (direction == 1 && enemy.GetX() + 1 <= 9)
                 {
-                    // Sprawdzenie czy obok nie zajmuje ktos miejsca
+                    // Sprawdzenie czy obok nie zajmuje ktos miejsca.
                     if (GameBoard.board[enemy.GetY() + 1, enemy.GetX() + 1] == '.')
                     {
-                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                         int newPosX = enemy.GetX() + 1;
                         int newPosY = enemy.GetY() + 1;
                         enemy.SetX(newPosX);
                         enemy.SetY(newPosY);
-                        //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
                         return;
                     }
                 }
             }
+            // Jezeli nie skacze to idzie zwyczajnie przed siebie.
             else
             {
-                //GameBoard.board[enemy.GetY(), enemy.GetX()] = '.';
                 enemy.Move();
-                //GameBoard.board[enemy.GetY(), enemy.GetX()] = '@';
             }
         }
     }
