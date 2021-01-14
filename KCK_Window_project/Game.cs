@@ -127,6 +127,11 @@ namespace KCK_Window_project
             SetEnemy("basic", new BasicEnemy());
             SetEnemy("tank", new TankEnemy());
 
+            // Flyweight
+            TurretFactory.GetTurretType(1, 50, "phase_1");
+            TurretFactory.GetTurretType(2, 75, "phase_2");
+            TurretFactory.GetTurretType(3, 100, "phase_3");
+
             FillSquare();
             labelWood.Font = new Font("Arial", 24);
             labelWood.Text = "Drewno - " + wood.ToString();
@@ -244,7 +249,8 @@ namespace KCK_Window_project
             {
                 if (ctrl.Name == searched)
                 {
-                    switch (turret.GetLevel())
+                    //switch (turret.GetLevel())
+                    switch (turret.GetTurretType().GetLevel())
                     {
                         case 1:
                             //ctrl.BackColor = Color.Aqua;
@@ -357,7 +363,9 @@ namespace KCK_Window_project
                     //budowanie wiezyczki
                     if (hero.GetY() == 11 && hero.CanPlace(turretList) == true)
                     {
-                        Turret turret = new Turret(hero);
+                        TurretType type = TurretFactory.GetTurretType(1, 50, "phase_1");//
+                        Turret turret = new Turret(hero, type);
+                        //Turret turret = new Turret(hero);
                         turretList.RemoveAt(hero.GetX());
                         turretList.Insert(hero.GetX(), turret);
                         PlaceTurret(turret);
@@ -376,8 +384,13 @@ namespace KCK_Window_project
                         Turret turret = turretList.ElementAt(hero.GetX());
                         wood -= turret.GetUpgradeCost();
                         stone -= turret.GetUpgradeCost();
-                        turret.Upgrade();
-                        PlaceTurret(turret);
+                        //turret.Upgrade();
+                        TurretType type = turret.Upgrade();
+                        Turret upgradedTurret = new Turret(hero, type);
+                        turretList.RemoveAt(hero.GetX());
+                        turretList.Insert(hero.GetX(), upgradedTurret);
+                        PlaceTurret(upgradedTurret);
+
                         labelWood.Text = "Drewno - " + wood;
                         labelStone.Text = "Kamień - " + stone;
                         // dzwiek
@@ -504,7 +517,8 @@ namespace KCK_Window_project
                 if (enemy != null && turretList.ElementAt(enemy.GetX()) != null)
                 {
                     Turret turret = turretList.ElementAt(enemy.GetX());
-                    enemy.Hit(turret.GetDmg());
+                    //enemy.Hit(turret.GetDmg());
+                    enemy.Hit(turret.GetTurretType().GetDmg());
                     FillSquare(enemy);
                     //wiezyczka traci pocisk
                     turret.Shot();

@@ -70,6 +70,8 @@
     <Compile Include="Subscriber.cs" />
     <Compile Include="TankEnemy.cs" />
     <Compile Include="Turret.cs" />
+    <Compile Include="TurretFactory.cs" />
+    <Compile Include="TurretType.cs" />
     <EmbeddedResource Include="Game.resx">
       <DependentUpon>Game.cs</DependentUpon>
     </EmbeddedResource>
