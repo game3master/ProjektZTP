@@ -70,7 +70,7 @@ namespace KCK_Window_project
         }
 
         /* Metody */
-        // Zwrocenie typu wiezyczki po ulepszeniu
+        // Zwrocenie typu wiezyczki po ulepszeniu.
         public TurretType Upgrade()
         {
             switch (turretType.GetLevel() + 1)
@@ -84,7 +84,7 @@ namespace KCK_Window_project
             }
         }
         
-        // Oddanie strzalu przez wiezyczke
+        // Oddanie strzalu przez wiezyczke.
         public void Shot()
         {
             ammo -= 1;

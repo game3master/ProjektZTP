@@ -74,29 +74,31 @@ namespace KCK_Window_project
         }
 
         /* Metody */
-        public override void Move()//board[15, 10]
+        // Poruszanie sie przeciwnika.
+        public override void Move()
         {
-            
-            // Jezeli wyszedlby za sciane
+            // Jezeli wyszedlby za sciane.
             if (posY + speed >= 10)
                 return;
-            // Jezeli przed nim stoi inny przeciwnik
+            // Jezeli przed nim stoi inny przeciwnik.
             if (GameBoard.board[posY + speed, posX] != '.')
                 return;
             posY += speed;
         }
+
+        // Otrzymanie obrazen.
         public override void Hit(int dmg)
         {
             hp -= dmg;
         }
 
-        // Metoda potrzebna by przeciwnik po stworzeniu nie ruszyl sie odrazu
+        // Metoda potrzebna by przeciwnik po stworzeniu nie ruszyl sie odrazu.
         public override void ChangeStatus()
         {
             justCreated = false;
         }
 
-        // Klonowanie
+        // Klonowanie.
         public override Enemy Clone()
         {
             return this.MemberwiseClone() as Enemy;

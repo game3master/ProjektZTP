@@ -19,7 +19,6 @@ namespace KCK_Window_project
         public abstract void SetX(int posX);
         public abstract void SetY(int posY);
 
-        //public abstract void Move(char[,] board);
         public abstract void Move();
         public abstract void Hit(int dmg);
         public abstract void ChangeStatus();

@@ -278,7 +278,7 @@ namespace KCK_Window_project
                 }
             }
         }
-
+        
         //wczyszczenie wiezyczki na mapie
         public void ClearTurret(Turret turret)
         {
