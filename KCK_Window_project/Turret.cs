@@ -9,21 +9,15 @@ namespace KCK_Window_project
 {
     public class Turret
     {
-        //pola
-        //private int level;
         private int ammo;
-        //private int dmg;
         private TurretType turretType;
 
         private int posX;
         private int posY;
 
-        //konstruktor
+        /* Konstruktor */
         public Turret(Hero hero, TurretType turretType)
         {
-            //level = 1;
-            //ammo = 3;
-            //dmg = 50;
             switch (turretType.GetLevel())
             {
                 case 1:
@@ -37,12 +31,11 @@ namespace KCK_Window_project
                     break;
             }
             this.turretType = turretType;
-
             posY = 10;
             posX = hero.GetX();
         }
 
-        //gettery
+        /* Gettery */
         public int GetX()
         {
             return posX;
@@ -51,10 +44,6 @@ namespace KCK_Window_project
         {
             return posY;
         }
-        //public int GetDmg()
-        //{
-        //    return dmg;
-        //}
         public int GetAmmo()
         {
             return ammo;
@@ -63,25 +52,6 @@ namespace KCK_Window_project
         {
             return turretType;
         }
-        //public int GetLevel()
-        //{
-        //    return level;
-        //}
-        //do wywalenia
-        /*
-        public char GetLevelChar()
-        {
-            switch (level)
-            {
-                case 1:
-                    return '1';
-                case 2:
-                    return '2';
-                default:
-                    return '3';
-            }
-        }*/
-        
         public int GetUpgradeCost()
         {
             switch (turretType.GetLevel())
@@ -94,13 +64,13 @@ namespace KCK_Window_project
                     return 175;
             }
         }
-        
         public static int GetBuildCost()
         {
             return 75;
         }
 
-        //metody
+        /* Metody */
+        // Zwrocenie typu wiezyczki po ulepszeniu
         public TurretType Upgrade()
         {
             switch (turretType.GetLevel() + 1)
@@ -114,6 +84,7 @@ namespace KCK_Window_project
             }
         }
         
+        // Oddanie strzalu przez wiezyczke
         public void Shot()
         {
             ammo -= 1;

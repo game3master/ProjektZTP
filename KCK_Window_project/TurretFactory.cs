@@ -9,10 +9,10 @@ namespace KCK_Window_project
 {
     public class TurretFactory
     {
-        // Pula istniejacych pylkow.
+        // Pula istniejacych pylkow (Typy wiezyczek).
         private static List<TurretType> turretTypes = new List<TurretType>();
 
-        // Zwrocenie pylka o pozadanym wewnetrznym stanie.
+        // Zwrocenie pylka (Typu wiezyczki) o pozadanym wewnetrznym stanie.
         public static TurretType GetTurretType(int level, int dmg, string name, Image image)
         {
             foreach (TurretType t in turretTypes)

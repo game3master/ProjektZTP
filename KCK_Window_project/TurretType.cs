@@ -40,7 +40,5 @@ namespace KCK_Window_project
         {
             return image;
         }
-
-        /* Jakies metody */
     }
 }
