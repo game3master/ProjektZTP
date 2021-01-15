@@ -27,8 +27,9 @@ namespace KCK_Window_project
             return instance;
         }
 
-        //gettery
-        // 1 - drewno, 0 - kamien
+        /* Gettery */
+        // 1 - drewno.
+        // 0 - kamien.
         public int GetCurrentPhase(int which)
         {
             if (which == 1)
@@ -37,12 +38,15 @@ namespace KCK_Window_project
                 return stoneCurrentPhase;
         }
 
-        //metody
+        /* Metody */
+        // Nastepna faza drewna.
         public void WoodNextPhase()
         {
             woodCurrentPhase += 1;
             woodCurrentPhase %= 3;
         }
+
+        // Nastepna faza kamienia.
         public void StoneNextPhase()
         {
             stoneCurrentPhase += 1;

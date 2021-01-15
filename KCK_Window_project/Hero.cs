@@ -27,7 +27,7 @@ namespace KCK_Window_project
             return instance;
         }
 
-        //gettery
+        /* Gettery */
         public int GetX()
         {
             return posX;
@@ -37,50 +37,57 @@ namespace KCK_Window_project
             return posY;
         }
 
-        //poruszanie sie
+        /* Metody */
+        // Ruch w lewo.
         public void MoveLeft()
         {
-            //zeby nie wyjsc za sciane
+            // Zeby nie wyjsc za sciane.
             if (posX == 0)
                 return;
-            //zeby nie wejsc na drewno
+            // Zeby nie wejsc na drewno.
             if (posX == 1 && posY == 14)
                 return;
             posX -= 1;
         }
+
+        // Ruch w prawo.
         public void MoveRight()
         {
-            //zeby nie wyjsc za sciane
+            // Zeby nie wyjsc za sciane.
             if (posX == 9)
                 return;
-            //zeby nie wejsc na kamien
+            // Zeby nie wejsc na kamien.
             if (posX == 8 && posY == 14)
                 return;
             posX += 1;
         }
+
+        // Ruch w gore.
         public void MoveUp()
         {
             if (posY == 11)
                 return;
             posY -= 1;
         }
+
+        // Ruch w dol.
         public void MoveDown()
         {
-            //zeby nie wyjsc za sciane
+            // Zeby nie wyjsc za sciane.
             if (posY == 14)
                 return;
-            //zeby nie wejsc na drewno
+            // Zeby nie wejsc na drewno.
             if (posX == 0 && posY == 13)
                 return;
-            //zeby nie wejsc na kamien
+            // Zeby nie wejsc na kamien.
             if (posX == 9 && posY == 13)
                 return;
             posY += 1;
         }
 
-        // 0 - zebrano kamien
-        // 1 - zebrano drewno
-        // 2 - nie zebrano nic
+        // 0 - zebrano kamien.
+        // 1 - zebrano drewno.
+        // 2 - nie zebrano nic.
         public int Collect(Resources res)
         {
             if (posX == 1 && posY == 14)
@@ -102,11 +109,13 @@ namespace KCK_Window_project
             return 2;
         }
 
-        //czy mozna postawic wiezyczke
+        // Czy mozna postawic wiezyczke.
         public bool CanPlace(List<Turret> turretList)
         {
+            // Czy przed bohaterem stoi jest puste miejsce.
             if (turretList.ElementAt(posX) == null)
             {
+                // Czy mamy wystarczajaco drewna i kamienia by zbudowac wiezyczke.
                 if (Game.wood >= Turret.GetBuildCost() && Game.stone >= Turret.GetBuildCost())
                     return true;
                 else
@@ -116,12 +125,14 @@ namespace KCK_Window_project
                 return false;
         }
 
-        //czy mozna ulepszyc wiezyczke
+        // Czy mozna ulepszyc wiezyczke.
         public bool CanUpgrade(List<Turret> turretList)
         {
+            // Czy przed bohaterem stoi wiezyczka do ulepszenia.
             if (turretList.ElementAt(posX) != null)
             {
                 Turret t = turretList.ElementAt(posX);
+                // Czy mamy wystarczajaco drewna i kamienia by ulepszyc wiezyczke.
                 if (Game.wood >= t.GetUpgradeCost() && Game.stone >= t.GetUpgradeCost())
                     return true;
                 else
