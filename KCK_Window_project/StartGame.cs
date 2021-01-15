@@ -12,7 +12,7 @@ namespace KCK_Window_project
 {
     public partial class StartGame : Form
     {
-        private static int difficulty;
+        private static int difficulty = 0;
 
         /* Konstruktor */
         public StartGame()

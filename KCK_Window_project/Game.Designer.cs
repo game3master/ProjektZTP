@@ -179,26 +179,13 @@ namespace KCK_Window_project
             this.label142ee = new System.Windows.Forms.Label();
             this.label141ee = new System.Windows.Forms.Label();
             this.label140ee = new System.Windows.Forms.Label();
-            this.label151 = new System.Windows.Forms.Label();
-            this.label152 = new System.Windows.Forms.Label();
-            this.label153 = new System.Windows.Forms.Label();
-            this.label154 = new System.Windows.Forms.Label();
-            this.label155 = new System.Windows.Forms.Label();
-            this.label156 = new System.Windows.Forms.Label();
-            this.label157 = new System.Windows.Forms.Label();
-            this.label158 = new System.Windows.Forms.Label();
-            this.label159 = new System.Windows.Forms.Label();
-            this.label160 = new System.Windows.Forms.Label();
-            this.label161 = new System.Windows.Forms.Label();
-            this.label162 = new System.Windows.Forms.Label();
-            this.label163 = new System.Windows.Forms.Label();
-            this.label164 = new System.Windows.Forms.Label();
-            this.label165 = new System.Windows.Forms.Label();
             this.labelWood = new System.Windows.Forms.Label();
             this.labelStone = new System.Windows.Forms.Label();
             this.labelScore = new System.Windows.Forms.Label();
             this.labelHP = new System.Windows.Forms.Label();
             this.labelInfo = new System.Windows.Forms.Label();
+            this.labelControls1 = new System.Windows.Forms.Label();
+            this.labelControls2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label0ee
@@ -1975,171 +1962,6 @@ namespace KCK_Window_project
             this.label140ee.TabIndex = 140;
             this.label140ee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label151
-            // 
-            this.label151.AutoSize = true;
-            this.label151.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label151.Location = new System.Drawing.Point(307, 289);
-            this.label151.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label151.Name = "label151";
-            this.label151.Size = new System.Drawing.Size(20, 20);
-            this.label151.TabIndex = 164;
-            this.label151.Text = "14";
-            // 
-            // label152
-            // 
-            this.label152.AutoSize = true;
-            this.label152.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label152.Location = new System.Drawing.Point(307, 269);
-            this.label152.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label152.Name = "label152";
-            this.label152.Size = new System.Drawing.Size(20, 20);
-            this.label152.TabIndex = 163;
-            this.label152.Text = "13";
-            // 
-            // label153
-            // 
-            this.label153.AutoSize = true;
-            this.label153.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label153.Location = new System.Drawing.Point(307, 249);
-            this.label153.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label153.Name = "label153";
-            this.label153.Size = new System.Drawing.Size(20, 20);
-            this.label153.TabIndex = 162;
-            this.label153.Text = "12";
-            // 
-            // label154
-            // 
-            this.label154.AutoSize = true;
-            this.label154.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label154.Location = new System.Drawing.Point(307, 229);
-            this.label154.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label154.Name = "label154";
-            this.label154.Size = new System.Drawing.Size(20, 20);
-            this.label154.TabIndex = 161;
-            this.label154.Text = "11";
-            // 
-            // label155
-            // 
-            this.label155.AutoSize = true;
-            this.label155.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label155.Location = new System.Drawing.Point(307, 209);
-            this.label155.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label155.Name = "label155";
-            this.label155.Size = new System.Drawing.Size(20, 20);
-            this.label155.TabIndex = 160;
-            this.label155.Text = "10";
-            // 
-            // label156
-            // 
-            this.label156.AutoSize = true;
-            this.label156.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label156.Location = new System.Drawing.Point(307, 189);
-            this.label156.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label156.Name = "label156";
-            this.label156.Size = new System.Drawing.Size(20, 20);
-            this.label156.TabIndex = 159;
-            this.label156.Text = "9";
-            // 
-            // label157
-            // 
-            this.label157.AutoSize = true;
-            this.label157.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label157.Location = new System.Drawing.Point(307, 169);
-            this.label157.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label157.Name = "label157";
-            this.label157.Size = new System.Drawing.Size(20, 20);
-            this.label157.TabIndex = 158;
-            this.label157.Text = "8";
-            // 
-            // label158
-            // 
-            this.label158.AutoSize = true;
-            this.label158.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label158.Location = new System.Drawing.Point(307, 149);
-            this.label158.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label158.Name = "label158";
-            this.label158.Size = new System.Drawing.Size(20, 20);
-            this.label158.TabIndex = 157;
-            this.label158.Text = "7";
-            // 
-            // label159
-            // 
-            this.label159.AutoSize = true;
-            this.label159.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label159.Location = new System.Drawing.Point(307, 129);
-            this.label159.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label159.Name = "label159";
-            this.label159.Size = new System.Drawing.Size(20, 20);
-            this.label159.TabIndex = 156;
-            this.label159.Text = "6";
-            // 
-            // label160
-            // 
-            this.label160.AutoSize = true;
-            this.label160.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label160.Location = new System.Drawing.Point(307, 109);
-            this.label160.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label160.Name = "label160";
-            this.label160.Size = new System.Drawing.Size(20, 20);
-            this.label160.TabIndex = 155;
-            this.label160.Text = "5";
-            // 
-            // label161
-            // 
-            this.label161.AutoSize = true;
-            this.label161.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label161.Location = new System.Drawing.Point(307, 89);
-            this.label161.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label161.Name = "label161";
-            this.label161.Size = new System.Drawing.Size(20, 20);
-            this.label161.TabIndex = 154;
-            this.label161.Text = "4";
-            // 
-            // label162
-            // 
-            this.label162.AutoSize = true;
-            this.label162.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label162.Location = new System.Drawing.Point(307, 69);
-            this.label162.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label162.Name = "label162";
-            this.label162.Size = new System.Drawing.Size(20, 20);
-            this.label162.TabIndex = 153;
-            this.label162.Text = "3";
-            // 
-            // label163
-            // 
-            this.label163.AutoSize = true;
-            this.label163.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label163.Location = new System.Drawing.Point(307, 49);
-            this.label163.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label163.Name = "label163";
-            this.label163.Size = new System.Drawing.Size(20, 20);
-            this.label163.TabIndex = 152;
-            this.label163.Text = "2";
-            // 
-            // label164
-            // 
-            this.label164.AutoSize = true;
-            this.label164.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label164.Location = new System.Drawing.Point(307, 29);
-            this.label164.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label164.Name = "label164";
-            this.label164.Size = new System.Drawing.Size(20, 20);
-            this.label164.TabIndex = 151;
-            this.label164.Text = "1";
-            // 
-            // label165
-            // 
-            this.label165.AutoSize = true;
-            this.label165.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label165.Location = new System.Drawing.Point(307, 9);
-            this.label165.MinimumSize = new System.Drawing.Size(20, 20);
-            this.label165.Name = "label165";
-            this.label165.Size = new System.Drawing.Size(20, 20);
-            this.label165.TabIndex = 150;
-            this.label165.Text = "0";
-            // 
             // labelWood
             // 
             this.labelWood.AutoSize = true;
@@ -2185,31 +2007,36 @@ namespace KCK_Window_project
             this.labelInfo.TabIndex = 169;
             this.labelInfo.Text = "Dźwięki mogą być głośne, uwaga na uszy!";
             // 
+            // labelControls1
+            // 
+            this.labelControls1.AutoSize = true;
+            this.labelControls1.Location = new System.Drawing.Point(12, 357);
+            this.labelControls1.Name = "labelControls1";
+            this.labelControls1.Size = new System.Drawing.Size(119, 13);
+            this.labelControls1.TabIndex = 170;
+            this.labelControls1.Text = "Strzałki - poruszanie się";
+            // 
+            // labelControls2
+            // 
+            this.labelControls2.AutoSize = true;
+            this.labelControls2.Location = new System.Drawing.Point(12, 370);
+            this.labelControls2.Name = "labelControls2";
+            this.labelControls2.Size = new System.Drawing.Size(87, 13);
+            this.labelControls2.TabIndex = 171;
+            this.labelControls2.Text = "Enter - interakcja";
+            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelControls2);
+            this.Controls.Add(this.labelControls1);
             this.Controls.Add(this.labelInfo);
             this.Controls.Add(this.labelHP);
             this.Controls.Add(this.labelScore);
             this.Controls.Add(this.labelStone);
             this.Controls.Add(this.labelWood);
-            this.Controls.Add(this.label151);
-            this.Controls.Add(this.label152);
-            this.Controls.Add(this.label153);
-            this.Controls.Add(this.label154);
-            this.Controls.Add(this.label155);
-            this.Controls.Add(this.label156);
-            this.Controls.Add(this.label157);
-            this.Controls.Add(this.label158);
-            this.Controls.Add(this.label159);
-            this.Controls.Add(this.label160);
-            this.Controls.Add(this.label161);
-            this.Controls.Add(this.label162);
-            this.Controls.Add(this.label163);
-            this.Controls.Add(this.label164);
-            this.Controls.Add(this.label165);
             this.Controls.Add(this.label149ee);
             this.Controls.Add(this.label148ee);
             this.Controls.Add(this.label147ee);
@@ -2522,26 +2349,13 @@ namespace KCK_Window_project
         private System.Windows.Forms.Label label142ee;
         private System.Windows.Forms.Label label141ee;
         private System.Windows.Forms.Label label140ee;
-        private System.Windows.Forms.Label label151;
-        private System.Windows.Forms.Label label152;
-        private System.Windows.Forms.Label label153;
-        private System.Windows.Forms.Label label154;
-        private System.Windows.Forms.Label label155;
-        private System.Windows.Forms.Label label156;
-        private System.Windows.Forms.Label label157;
-        private System.Windows.Forms.Label label158;
-        private System.Windows.Forms.Label label159;
-        private System.Windows.Forms.Label label160;
-        private System.Windows.Forms.Label label161;
-        private System.Windows.Forms.Label label162;
-        private System.Windows.Forms.Label label163;
-        private System.Windows.Forms.Label label164;
-        private System.Windows.Forms.Label label165;
         private System.Windows.Forms.Label labelWood;
         private System.Windows.Forms.Label labelStone;
         private System.Windows.Forms.Label labelScore;
         private System.Windows.Forms.Label labelHP;
         private System.Windows.Forms.Label labelInfo;
+        private System.Windows.Forms.Label labelControls1;
+        private System.Windows.Forms.Label labelControls2;
     }
 }
 

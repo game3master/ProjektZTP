@@ -12,7 +12,7 @@ namespace KCK_Window_project
 {
     public partial class EndGame : Form
     {
-        private static bool closeProgram;
+        private static bool closeProgram = true;
 
         /* Konstruktor */
         public EndGame()
@@ -30,7 +30,7 @@ namespace KCK_Window_project
         private void EndGame_Load(object sender, EventArgs e)
         {
             int score = Game.score;
-            labelPoints.Text = "Twój wynik: " + score.ToString() + ".pkt";
+            labelPoints.Text = "Twój wynik: " + score.ToString() + " pkt.";
         }
 
         private void buttonRetry_Click(object sender, EventArgs e)
