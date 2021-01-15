@@ -19,10 +19,10 @@ namespace KCK_Window_project
         Resources resources;
         Strategy strategy;
 
-        public static int wood = 1500;
-        public static int stone = 1500;
-        public static int score = 0;
-        public static int hp = 100;
+        public static int wood;
+        public static int stone;
+        public static int score;
+        public static int hp;
 
         Timer woodTimer;
         Timer stoneTimer;
@@ -108,12 +108,21 @@ namespace KCK_Window_project
 
         private void Game_Load(object sender, EventArgs e)
         {
+            // Ustawienie strategii
+            // 0 - poziom latwy.
+            // 1 - poziom trudny.
+            if (StartGame.GetDifficulty() == 1)
+                SetStrategy(new HardStrategy());
+            else
+                SetStrategy(new EasyStrategy());
+
             // Observer.
             Subscribe(GameBoard.GetInstance());
 
-            SetStrategy(new HardStrategy());
+            //SetStrategy(new HardStrategy());
             hero = Hero.getInstance();
             resources = Resources.getInstance();
+            FillSquare();
 
             InitializeLists();
 
@@ -121,7 +130,11 @@ namespace KCK_Window_project
             SetEnemy("basic", new BasicEnemy());
             SetEnemy("tank", new TankEnemy());
 
-            FillSquare();
+            wood = 1500;
+            stone = 1500;
+            score = 0;
+            hp = 100;
+
             // Inicjalizacja labeli.
             labelWood.Font = new Font("Arial", 24);
             labelWood.Text = "Drewno - " + wood.ToString();
@@ -529,6 +542,21 @@ namespace KCK_Window_project
                 Stream str = Properties.Resources.dmg_dealt_sound;
                 SoundPlayer snd = new SoundPlayer(str);
                 snd.Play();
+            }
+            // Zakonczenie gry.
+            if (hp <= 0)
+            {
+                // Dzwiek.
+                Stream str = Properties.Resources.gameover;
+                SoundPlayer snd = new SoundPlayer(str);
+                snd.Play();
+                woodTimer.Enabled = false;
+                stoneTimer.Enabled = false;
+                enemyCreateTimer.Enabled = false;
+                enemyMoveTimer.Enabled = false;
+                enemyGetHit.Enabled = false;
+                enemyAttack.Enabled = false;
+                this.Close();
             }
         }
     }
