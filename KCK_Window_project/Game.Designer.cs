@@ -307,6 +307,7 @@ namespace KCK_Window_project
             this.label9ee.Size = new System.Drawing.Size(20, 20);
             this.label9ee.TabIndex = 9;
             this.label9ee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label9ee.Click += new System.EventHandler(this.label9ee_Click);
             // 
             // label19ee
             // 

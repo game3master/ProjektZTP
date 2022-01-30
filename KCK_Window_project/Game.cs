@@ -559,5 +559,10 @@ namespace KCK_Window_project
                 this.Close();
             }
         }
+
+        private void label9ee_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
