@@ -33,7 +33,7 @@ namespace KCK_Window_project
             {
                 for (int j = 0; j < 10; j++)
                 {
-                    board[i, j] = '.';
+                    //board[i, j] = '.';
                     if (i == 10)
                         board[i, j] = '#';
                 }

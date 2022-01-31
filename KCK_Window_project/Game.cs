@@ -24,12 +24,12 @@ namespace KCK_Window_project
         public static int score;
         public static int hp;
 
-        Timer woodTimer;
-        Timer stoneTimer;
+        //Timer woodTimer;
+        //Timer stoneTimer;
         Timer enemyCreateTimer;
         Timer enemyMoveTimer;
-        Timer enemyGetHit;
-        Timer enemyAttack;
+        //Timer enemyGetHit;
+        //Timer enemyAttack;
 
         List<Enemy> enemyList = new List<Enemy>();
         List<Turret> turretList = new List<Turret>();
@@ -146,14 +146,14 @@ namespace KCK_Window_project
             labelScore.Text = "Punkty: " + score.ToString();
 
             // Inicjalizacja timerow.
-            woodTimer = new Timer();
-            woodTimer.Interval = 5000;          // 5 sec
-            woodTimer.Tick += new EventHandler(WoodTimer_Tick);
-            woodTimer.Start();
-            stoneTimer = new Timer();
-            stoneTimer.Interval = 5000;         // 5 sec
-            stoneTimer.Tick += new EventHandler(StoneTimer_Tick);
-            stoneTimer.Start();
+            //woodTimer = new Timer();
+            //woodTimer.Interval = 5000;          // 5 sec
+            //woodTimer.Tick += new EventHandler(WoodTimer_Tick);
+            //woodTimer.Start();
+            //stoneTimer = new Timer();
+            //stoneTimer.Interval = 5000;         // 5 sec
+            //stoneTimer.Tick += new EventHandler(StoneTimer_Tick);
+            //stoneTimer.Start();
             enemyCreateTimer = new Timer();
             enemyCreateTimer.Interval = 10000;  // 10 sec
             enemyCreateTimer.Tick += new EventHandler(EnemyCreateTimer_Tick);
@@ -162,14 +162,14 @@ namespace KCK_Window_project
             enemyMoveTimer.Interval = 2500;     // 2.5 sec
             enemyMoveTimer.Tick += new EventHandler(EnemyMoveTimer_Tick);
             enemyMoveTimer.Start();
-            enemyGetHit = new Timer();
-            enemyGetHit.Interval = 1000;        // 1 sec
-            enemyGetHit.Tick += new EventHandler(EnemyGetHit_Tick);
-            enemyGetHit.Start();
-            enemyAttack = new Timer();
-            enemyAttack.Interval = 5000;        // 5 sec.
-            enemyAttack.Tick += new EventHandler(EnemyAttack_Tick);
-            enemyAttack.Start();
+            //enemyGetHit = new Timer();
+            //enemyGetHit.Interval = 1000;        // 1 sec
+            //enemyGetHit.Tick += new EventHandler(EnemyGetHit_Tick);
+            //enemyGetHit.Start();
+            //enemyAttack = new Timer();
+            //enemyAttack.Interval = 5000;        // 5 sec.
+            //enemyAttack.Tick += new EventHandler(EnemyAttack_Tick);
+            //enemyAttack.Start();
         }
 
         // Zamalowanie pola w miejscu bohatera.
@@ -322,7 +322,7 @@ namespace KCK_Window_project
                     {
                         labelWood.Text = "Drewno - " + wood;
                         label140ee.Image = Properties.Resources.wood_phase1;
-                        woodTimer.Start();
+                        //woodTimer.Start();
                         // Dzwiek.
                         str = Properties.Resources.collect_sound;
                         snd = new SoundPlayer(str);
@@ -333,12 +333,19 @@ namespace KCK_Window_project
                     {
                         labelStone.Text = "Kamień - " + stone;
                         label149ee.Image = Properties.Resources.stone_phase1;
-                        stoneTimer.Start();
+                        //stoneTimer.Start();
                         // Dzwiek.
                         str = Properties.Resources.collect_sound;
                         snd = new SoundPlayer(str);
                         snd.Play();
                     }
+
+                    //Jeśli zebrano Najmana
+                    if (collected == 3)
+                    {
+                        hp = 0;
+                    }
+
                     // Budowanie wiezyczki.
                     if (hero.GetY() == 11 && hero.CanPlace(turretList) == true)
                     {
@@ -386,46 +393,46 @@ namespace KCK_Window_project
          * Timery *
          **********/
         // Timer od drewna.
-        private void WoodTimer_Tick(object sender, EventArgs e)
-        {
-            // Drewno.
-            resources.WoodNextPhase();
-            switch (resources.GetCurrentPhase(1))   
-            {
-                case 0:
-                    label140ee.Image = Properties.Resources.wood_phase1;
-                    break;
-                case 1:
-                    label140ee.Image = Properties.Resources.wood_phase2;
-                    break;
-                default:
-                    label140ee.Image = Properties.Resources.wood_phase3;
-                    break;
-            }   
-            if (resources.GetCurrentPhase(1) == 2)
-                woodTimer.Stop();
-        }
+        //private void WoodTimer_Tick(object sender, EventArgs e)
+        //{
+        //    // Drewno.
+        //    resources.WoodNextPhase();
+        //    switch (resources.GetCurrentPhase(1))   
+        //    {
+        //        case 0:
+        //            label140ee.Image = Properties.Resources.wood_phase1;
+        //            break;
+        //        case 1:
+        //            label140ee.Image = Properties.Resources.wood_phase2;
+        //            break;
+        //        default:
+        //            label140ee.Image = Properties.Resources.wood_phase3;
+        //            break;
+        //    }   
+        //    if (resources.GetCurrentPhase(1) == 2)
+        //        //woodTimer.Stop();
+        //}
 
         // Timer od kamienia.
-        private void StoneTimer_Tick(object sender, EventArgs e)
-        {
-            // Kamien.
-            resources.StoneNextPhase();
-            switch (resources.GetCurrentPhase(0))
-            {
-                case 0:
-                    label149ee.Image = Properties.Resources.stone_phase1;
-                    break;
-                case 1:
-                    label149ee.Image = Properties.Resources.stone_phase2;
-                    break;
-                default:
-                    label149ee.Image = Properties.Resources.stone_phase3;
-                    break;
-            }
-            if (resources.GetCurrentPhase(0) == 2)
-                stoneTimer.Stop();
-        }
+        //private void StoneTimer_Tick(object sender, EventArgs e)
+        //{
+        //    // Kamien.
+        //    resources.StoneNextPhase();
+        //    switch (resources.GetCurrentPhase(0))
+        //    {
+        //        case 0:
+        //            label149ee.Image = Properties.Resources.stone_phase1;
+        //            break;
+        //        case 1:
+        //            label149ee.Image = Properties.Resources.stone_phase2;
+        //            break;
+        //        default:
+        //            label149ee.Image = Properties.Resources.stone_phase3;
+        //            break;
+        //    }
+        //    if (resources.GetCurrentPhase(0) == 2)
+        //        stoneTimer.Stop();
+        //}
 
         // Timer od tworzenia przeciwnikow.
         private void EnemyCreateTimer_Tick(object sender, EventArgs e)
@@ -436,8 +443,9 @@ namespace KCK_Window_project
                 enemy = GetEnemy("basic").Clone() as BasicEnemy;
             else
                 enemy = GetEnemy("tank").Clone() as TankEnemy;
-            Random rnd = new Random();
-            enemy.SetX(rnd.Next(10));
+            //Random rnd = new Random();
+            int startX = 8;
+            enemy.SetX(startX);
             enemyList.Add(enemy);
             FillSquare(enemy);
             NotifySubscribers();
@@ -470,79 +478,83 @@ namespace KCK_Window_project
                 }
             }
             NotifySubscribers();
+            this.IsGameLost();
         }
 
         //Timer od zadawania obrazen przeciwnikom.
-        private void EnemyGetHit_Tick(object sender, EventArgs e)
-        {
-            // Pomocnicza lista do usuwania przeciwnikow.
-            List<Enemy> supportList = new List<Enemy>();
-            bool shouldRefresh = false;
-            foreach (Enemy enemy in enemiesUnderWall)
-            {
-                // Jesli na scianie stoi wiezyczka przed przeciwnikiem.
-                if (enemy != null && turretList.ElementAt(enemy.GetX()) != null)
-                {
-                    Turret turret = turretList.ElementAt(enemy.GetX());
-                    enemy.Hit(turret.GetTurretType().GetDmg());
-                    FillSquare(enemy);
-                    turret.Shot();
-                    PlaceTurret(turret);
-                    // Jesli wiezyczka nie ma juz naboi.
-                    if (turret.GetAmmo() <= 0)
-                    {
-                        turretList.RemoveAt(enemy.GetX());
-                        turretList.Insert(enemy.GetX(), null);
-                        ClearTurret(turret);
-                    }
-                }
-                // Jesli hp przeciwnika spadnie do 0.
-                if (enemy != null && enemy.GetHP() <= 0)
-                {
-                    supportList.Add(enemy);
-                    shouldRefresh = true;
-                    score += 250;
-                    labelScore.Text = "Punkty: " + score.ToString();
-                    // Dzwiek.
-                    Stream str = Properties.Resources.enemy_destroyed_sound;
-                    SoundPlayer snd = new SoundPlayer(str);
-                    snd.Play();
-                }
-            }
-            // Czy jakis przeciwnik zostal pokonany
-            if (shouldRefresh == true)
-            {
-                foreach (Enemy enemy in supportList)
-                {
-                    ClearSquare(enemy);
-                    enemiesUnderWall.RemoveAt(enemy.GetX());
-                    enemiesUnderWall.Insert(enemy.GetX(), null);
-                    enemyList.Remove(enemy);
-                }
-                NotifySubscribers();
-            }
-        }
+        //private void EnemyGetHit_Tick(object sender, EventArgs e)
+        //{
+        //    // Pomocnicza lista do usuwania przeciwnikow.
+        //    List<Enemy> supportList = new List<Enemy>();
+        //    bool shouldRefresh = false;
+        //    foreach (Enemy enemy in enemiesUnderWall)
+        //    {
+        //        // Jesli na scianie stoi wiezyczka przed przeciwnikiem.
+        //        if (enemy != null && turretList.ElementAt(enemy.GetX()) != null)
+        //        {
+        //            Turret turret = turretList.ElementAt(enemy.GetX());
+        //            enemy.Hit(turret.GetTurretType().GetDmg());
+        //            FillSquare(enemy);
+        //            turret.Shot();
+        //            PlaceTurret(turret);
+        //            // Jesli wiezyczka nie ma juz naboi.
+        //            if (turret.GetAmmo() <= 0)
+        //            {
+        //                turretList.RemoveAt(enemy.GetX());
+        //                turretList.Insert(enemy.GetX(), null);
+        //                ClearTurret(turret);
+        //            }
+        //        }
+        //        // Jesli hp przeciwnika spadnie do 0.
+        //        if (enemy != null && enemy.GetHP() <= 0)
+        //        {
+        //            supportList.Add(enemy);
+        //            shouldRefresh = true;
+        //            score += 250;
+        //            labelScore.Text = "Punkty: " + score.ToString();
+        //            // Dzwiek.
+        //            Stream str = Properties.Resources.enemy_destroyed_sound;
+        //            SoundPlayer snd = new SoundPlayer(str);
+        //            snd.Play();
+        //        }
+        //    }
+        //    // Czy jakis przeciwnik zostal pokonany
+        //    if (shouldRefresh == true)
+        //    {
+        //        foreach (Enemy enemy in supportList)
+        //        {
+        //            ClearSquare(enemy);
+        //            enemiesUnderWall.RemoveAt(enemy.GetX());
+        //            enemiesUnderWall.Insert(enemy.GetX(), null);
+        //            enemyList.Remove(enemy);
+        //        }
+        //        NotifySubscribers();
+        //    }
+        //}
 
         // Timer od zadawania obrazen przez przeciwnikow.
-        private void EnemyAttack_Tick(object sender, EventArgs e)
+        //private void EnemyAttack_Tick(object sender, EventArgs e)
+        //{
+        //    bool playSound = false;
+        //    foreach (Enemy enemy in enemyList)
+        //    {
+        //        if (enemy.GetY() == 9)
+        //        {
+        //            hp -= enemy.GetDmg();
+        //            labelHP.Text = "HP: " + hp.ToString();
+        //            playSound = true;
+        //        }
+        //    }
+        //    if (playSound == true)
+        //    {
+        //        // Dzwiek.
+        //        Stream str = Properties.Resources.dmg_dealt_sound;
+        //        SoundPlayer snd = new SoundPlayer(str);
+        //        snd.Play();
+        //    }
+
+        private void IsGameLost()
         {
-            bool playSound = false;
-            foreach (Enemy enemy in enemyList)
-            {
-                if (enemy.GetY() == 9)
-                {
-                    hp -= enemy.GetDmg();
-                    labelHP.Text = "HP: " + hp.ToString();
-                    playSound = true;
-                }
-            }
-            if (playSound == true)
-            {
-                // Dzwiek.
-                Stream str = Properties.Resources.dmg_dealt_sound;
-                SoundPlayer snd = new SoundPlayer(str);
-                snd.Play();
-            }
             // Zakonczenie gry.
             if (hp <= 0)
             {
@@ -550,19 +562,17 @@ namespace KCK_Window_project
                 Stream str = Properties.Resources.gameover;
                 SoundPlayer snd = new SoundPlayer(str);
                 snd.Play();
-                woodTimer.Enabled = false;
-                stoneTimer.Enabled = false;
-                enemyCreateTimer.Enabled = false;
+                //woodTimer.Enabled = false;
+                //stoneTimer.Enabled = false;
+                //enemyCreateTimer.Enabled = false;
                 enemyMoveTimer.Enabled = false;
-                enemyGetHit.Enabled = false;
-                enemyAttack.Enabled = false;
+                //enemyGetHit.Enabled = false;
+                //enemyAttack.Enabled = false;
                 this.Close();
             }
         }
+            
+        //}
 
-        private void label9ee_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

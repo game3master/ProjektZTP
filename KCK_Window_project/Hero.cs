@@ -42,10 +42,7 @@ namespace KCK_Window_project
         public void MoveLeft()
         {
             // Zeby nie wyjsc za sciane.
-            if (posX == 0)
-                return;
-            // Zeby nie wejsc na drewno.
-            if (posX == 1 && posY == 14)
+            if (posX == 1)
                 return;
             posX -= 1;
         }
@@ -54,10 +51,7 @@ namespace KCK_Window_project
         public void MoveRight()
         {
             // Zeby nie wyjsc za sciane.
-            if (posX == 9)
-                return;
-            // Zeby nie wejsc na kamien.
-            if (posX == 8 && posY == 14)
+            if (posX == 8)
                 return;
             posX += 1;
         }
@@ -65,7 +59,7 @@ namespace KCK_Window_project
         // Ruch w gore.
         public void MoveUp()
         {
-            if (posY == 11)
+            if (posY == 1)
                 return;
             posY -= 1;
         }
@@ -74,13 +68,7 @@ namespace KCK_Window_project
         public void MoveDown()
         {
             // Zeby nie wyjsc za sciane.
-            if (posY == 14)
-                return;
-            // Zeby nie wejsc na drewno.
-            if (posX == 0 && posY == 13)
-                return;
-            // Zeby nie wejsc na kamien.
-            if (posX == 9 && posY == 13)
+            if (posY == 13)
                 return;
             posY += 1;
         }
@@ -90,7 +78,7 @@ namespace KCK_Window_project
         // 2 - nie zebrano nic.
         public int Collect(Resources res)
         {
-            if (posX == 1 && posY == 14)
+            if (posX == 2 && posY == 2)
             {
                 if (res.GetCurrentPhase(1) != 2)
                     return 2;
@@ -98,7 +86,7 @@ namespace KCK_Window_project
                 res.WoodNextPhase();
                 return 1;
             }
-            if (posX == 8 && posY == 14)
+            if (posX == 7 && posY == 13)
             {
                 if (res.GetCurrentPhase(0) != 2)
                     return 2;

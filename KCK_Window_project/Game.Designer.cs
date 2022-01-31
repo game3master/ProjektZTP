@@ -307,7 +307,6 @@ namespace KCK_Window_project
             this.label9ee.Size = new System.Drawing.Size(20, 20);
             this.label9ee.TabIndex = 9;
             this.label9ee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label9ee.Click += new System.EventHandler(this.label9ee_Click);
             // 
             // label19ee
             // 
@@ -517,6 +516,7 @@ namespace KCK_Window_project
             // 
             this.label22ee.BackColor = System.Drawing.Color.LightGray;
             this.label22ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label22ee.Image = global::KCK_Window_project.Properties.Resources.enemy;
             this.label22ee.Location = new System.Drawing.Point(52, 49);
             this.label22ee.Margin = new System.Windows.Forms.Padding(0);
             this.label22ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1399,7 +1399,6 @@ namespace KCK_Window_project
             this.label109ee.Name = "label109ee";
             this.label109ee.Size = new System.Drawing.Size(20, 20);
             this.label109ee.TabIndex = 109;
-            this.label109ee.Text = ".";
             this.label109ee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label108ee
@@ -1425,7 +1424,6 @@ namespace KCK_Window_project
             this.label107ee.Name = "label107ee";
             this.label107ee.Size = new System.Drawing.Size(20, 20);
             this.label107ee.TabIndex = 107;
-            this.label107ee.Text = ".";
             this.label107ee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label106ee
@@ -1438,7 +1436,6 @@ namespace KCK_Window_project
             this.label106ee.Name = "label106ee";
             this.label106ee.Size = new System.Drawing.Size(20, 20);
             this.label106ee.TabIndex = 106;
-            this.label106ee.Text = ".";
             this.label106ee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label105ee
@@ -1753,6 +1750,7 @@ namespace KCK_Window_project
             // label138ee
             // 
             this.label138ee.BackColor = System.Drawing.Color.LightGray;
+            this.label138ee.Image = global::KCK_Window_project.Properties.Resources.enemyTank;
             this.label138ee.Location = new System.Drawing.Point(172, 269);
             this.label138ee.Margin = new System.Windows.Forms.Padding(0);
             this.label138ee.MinimumSize = new System.Drawing.Size(20, 20);
