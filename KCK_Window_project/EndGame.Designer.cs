@@ -84,5 +84,6 @@ namespace KCK_Window_project
         private System.Windows.Forms.Button buttonClose;
         private System.Windows.Forms.Button buttonRetry;
         private System.Windows.Forms.Label labelPoints;
+    
     }
 }

@@ -29,8 +29,8 @@ namespace KCK_Window_project
         /* Eventy */
         private void EndGame_Load(object sender, EventArgs e)
         {
-            int score = Game.score;
-            labelPoints.Text = "Twój wynik: " + score.ToString() + " pkt.";
+           
+            labelPoints.Text = "Wybierz opcję";
         }
 
         private void buttonRetry_Click(object sender, EventArgs e)

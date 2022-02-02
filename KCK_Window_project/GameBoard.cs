@@ -29,34 +29,13 @@ namespace KCK_Window_project
         // Stworzenie logiki planszy (Tablica z rozmieszczeniem przeciwnikow).
         private void CreateBoard()
         {
-            for (int i = 0; i < 15; i++)
-            {
-                for (int j = 0; j < 10; j++)
-                {
-                    //board[i, j] = '.';
-                    if (i == 10)
-                        board[i, j] = '#';
-                }
-            }
-            board[14, 0] = 'v';
-            board[14, 9] = 's';
+           
         }
 
         // Nadpisana metoda z wzorca Observer - zaktualizowanie planszy.
         public override void update(Game game)
         {
-            // Wyczyszczenie mapy.
-            for (int i = 0; i < 10; i++)
-                for (int j = 0; j < 10; j++)
-                {
-                    board[i, j] = '.';
-                }
-
-            // Wstawienie przeciwnikow.
-            foreach (Enemy e in game.GetEnemyList())
-            {
-                board[e.GetY(), e.GetX()] = '@';
-            }
+           
         }
     }
 }

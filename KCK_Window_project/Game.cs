@@ -19,16 +19,13 @@ namespace KCK_Window_project
 
         Strategy strategy;
 
-        public static int wood;
-        public static int stone;
-        public static int score;
-        public static int hp;
+       
 
         Timer enemyMoveTimer;
 
         List<Enemy> enemyList = new List<Enemy>();
         List<Block> blockList = new List<Block>();
-        List<Enemy> enemiesUnderWall = new List<Enemy>();
+        
 
         // Kolekcja dla wzorca Protoype.
         Dictionary<string, Enemy> enemyTypes = new Dictionary<string, Enemy>();
@@ -47,15 +44,7 @@ namespace KCK_Window_project
             return enemyList;
         }
 
-        // Inicjalizowanie list nullami.
-        private void InitializeLists()
-        {
-            for (int i = 0; i < 10; i++)
-            {
-                blockList.Add(null);
-                enemiesUnderWall.Add(null);
-            }
-        }
+       
 
         // Dodanie subskrybenta - wzorzec Observer.
         public void Subscribe(Subscriber subscriber)
@@ -128,7 +117,7 @@ namespace KCK_Window_project
                 }
             }
             factory.GetAllBlocks().ForEach(
-                (Block block) => PlaceTurret(block)
+                (Block block) => PlaceBlock(block)
             );
         }
 
@@ -151,16 +140,12 @@ namespace KCK_Window_project
             hero = Hero.getInstance();
             FillSquare();
 
-            InitializeLists();
+           
 
             // Flyweight
             PlaceBlocks();
 
-            wood = 1500;
-            stone = 1500;
-            score = 0;
-            hp = 100;
-
+          
 
             enemyMoveTimer = new Timer();
             enemyMoveTimer.Interval = 700; //MS
@@ -236,7 +221,7 @@ namespace KCK_Window_project
         }
 
         // Namalowanie wiezyczki na mapie.
-        public void PlaceTurret(Block block)
+        public void PlaceBlock(Block block)
         {
             int inOne = block.GetY() * 10 + block.GetX();
             string searched = "label" + inOne + "ee";
@@ -296,19 +281,11 @@ namespace KCK_Window_project
                 FillSquare(enemy);
             });        
             NotifySubscribers();
-            this.IsGameLost();
+         
         }
 
 
-        private void IsGameLost()
-        {
-            // Zakonczenie gry.
-            if (hp <= 0)
-            {
-                enemyMoveTimer.Enabled = false;
-                this.Close();
-            }
-        }
+      
 
     }
 }
