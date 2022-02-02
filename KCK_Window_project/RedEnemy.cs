@@ -11,13 +11,13 @@ namespace KCK_Window_project
         UP,
         DOWN
     }
-    class TankEnemy : Enemy
+    class RedEnemy : Enemy
     {
         private VerticalDirection direction = VerticalDirection.DOWN;
         /* Konstruktor */
-        public TankEnemy(int posX, int posY) : base(posX, posY)
+        public RedEnemy(int posX, int posY) : base(posX, posY)
         {
-            enemyType = "tank";
+            enemyType = "red";
         }
 
         // Klonowanie.

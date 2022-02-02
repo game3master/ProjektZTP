@@ -16,22 +16,22 @@ namespace KCK_Window_project
             basicEnemyOne.SetX(1);
             basicEnemyOne.SetY(4);
 
-            TankEnemy tankEnemyOne = (TankEnemy)enemyTypes["tank"].Clone();
-            tankEnemyOne.SetX(3);
-            tankEnemyOne.SetY(1);
+            RedEnemy redEnemyOne = (RedEnemy)enemyTypes["red"].Clone();
+            redEnemyOne.SetX(3);
+            redEnemyOne.SetY(1);
 
             BasicEnemy basicEnemyTwo = (BasicEnemy)enemyTypes["basic"].Clone();
             basicEnemyTwo.SetX(1);
             basicEnemyTwo.SetY(9);
 
-            TankEnemy tankEnemyTwo = (TankEnemy)enemyTypes["tank"].Clone();
-            tankEnemyTwo.SetX(6);
-            tankEnemyTwo.SetY(1);
+            RedEnemy redEnemyTwo = (RedEnemy)enemyTypes["red"].Clone();
+            redEnemyTwo.SetX(6);
+            redEnemyTwo.SetY(1);
 
             enemies.Add(basicEnemyOne);
-            enemies.Add(tankEnemyOne);
+            enemies.Add(redEnemyOne);
             enemies.Add(basicEnemyTwo);
-            enemies.Add(tankEnemyTwo);
+            enemies.Add(redEnemyTwo);
             return enemies;
         }
 

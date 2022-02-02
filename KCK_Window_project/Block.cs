@@ -7,16 +7,16 @@ using System.Drawing;
 
 namespace KCK_Window_project
 {
-    public class Turret
+    public class Block
     {
-        private TurretType turretType;
+        private BlockType blockType;
         private int posX;
         private int posY;
 
         /* Konstruktor */
-        public Turret(TurretType t, int posX, int posY)
+        public Block(BlockType t, int posX, int posY)
         {
-            this.turretType = t;
+            this.blockType = t;
             this.posX = posX;
             this.posY = posY;
         }
@@ -30,9 +30,9 @@ namespace KCK_Window_project
         {
             return posY;
         }
-        public TurretType GetTurretType()
+        public BlockType GetBlockType()
         {
-            return turretType;
+            return blockType;
         }
     }
 }

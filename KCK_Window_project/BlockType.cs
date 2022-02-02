@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace KCK_Window_project
 {
-    public class TurretType
+    public class BlockType
     {
         private int index;
         private Image image;
 
         /* Konstruktor */
-        public TurretType(int index, Image image)
+        public BlockType(int index, Image image)
         {
             this.index = index;
             this.image = image;

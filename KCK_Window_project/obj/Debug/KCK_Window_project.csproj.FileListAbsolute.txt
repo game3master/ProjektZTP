@@ -59,3 +59,14 @@ C:\Users\Tościarz\Desktop\Projekt (1)\Projekt\KCK_Window_project\obj\Debug\KCK_
 C:\Users\Tościarz\Desktop\Projekt (1)\Projekt\KCK_Window_project\obj\Debug\KCK_Window_project.csproj.CoreCompileInputs.cache
 C:\Users\Tościarz\Desktop\Projekt (1)\Projekt\KCK_Window_project\obj\Debug\KCK_Window_project.exe
 C:\Users\Tościarz\Desktop\Projekt (1)\Projekt\KCK_Window_project\obj\Debug\KCK_Window_project.pdb
+C:\Users\Admin\Desktop\Studia\Semestr 5\ZTP\Projektfinal\KCK_Window_project\obj\Debug\KCK_Window_project.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Studia\Semestr 5\ZTP\Projektfinal\KCK_Window_project\obj\Debug\KCK_Window_project.EndGame.resources
+C:\Users\Admin\Desktop\Studia\Semestr 5\ZTP\Projektfinal\KCK_Window_project\obj\Debug\KCK_Window_project.Game.resources
+C:\Users\Admin\Desktop\Studia\Semestr 5\ZTP\Projektfinal\KCK_Window_project\obj\Debug\KCK_Window_project.Properties.Resources.resources
+C:\Users\Admin\Desktop\Studia\Semestr 5\ZTP\Projektfinal\KCK_Window_project\obj\Debug\KCK_Window_project.StartGame.resources
+C:\Users\Admin\Desktop\Studia\Semestr 5\ZTP\Projektfinal\KCK_Window_project\obj\Debug\KCK_Window_project.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Studia\Semestr 5\ZTP\Projektfinal\KCK_Window_project\obj\Debug\KCK_Window_project.exe
+C:\Users\Admin\Desktop\Studia\Semestr 5\ZTP\Projektfinal\KCK_Window_project\obj\Debug\KCK_Window_project.pdb
+C:\Users\Admin\Desktop\Studia\Semestr 5\ZTP\Projektfinal\KCK_Window_project\bin\Debug\KCK_Window_project.exe.config
+C:\Users\Admin\Desktop\Studia\Semestr 5\ZTP\Projektfinal\KCK_Window_project\bin\Debug\KCK_Window_project.exe
+C:\Users\Admin\Desktop\Studia\Semestr 5\ZTP\Projektfinal\KCK_Window_project\bin\Debug\KCK_Window_project.pdb

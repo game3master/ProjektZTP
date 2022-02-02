@@ -27,7 +27,7 @@ namespace KCK_Window_project
         Timer enemyMoveTimer;
 
         List<Enemy> enemyList = new List<Enemy>();
-        List<Turret> turretList = new List<Turret>();
+        List<Block> blockList = new List<Block>();
         List<Enemy> enemiesUnderWall = new List<Enemy>();
 
         // Kolekcja dla wzorca Protoype.
@@ -52,7 +52,7 @@ namespace KCK_Window_project
         {
             for (int i = 0; i < 10; i++)
             {
-                turretList.Add(null);
+                blockList.Add(null);
                 enemiesUnderWall.Add(null);
             }
         }
@@ -104,9 +104,9 @@ namespace KCK_Window_project
         }
 
         // Rozmieszczenie bloków na mapce
-        private void PlaceTurrets()
+        private void PlaceBlocks()
         {
-            TurretFactory factory = new TurretFactory();
+            BlockFactory factory = new BlockFactory();
             int index = 1;
             for (int i = 0; i < 10; i++)
             {
@@ -114,7 +114,7 @@ namespace KCK_Window_project
                 {
                     if (i == 0 || i == 9 || j == 0 || j == 14)
                     {
-                        factory.AddTurret(index, i, j);
+                        factory.AddBlock(index, i, j);
                         if (index == 1)
                         {
                             index = 2;
@@ -127,8 +127,8 @@ namespace KCK_Window_project
 
                 }
             }
-            factory.GetAllTurrets().ForEach(
-                (Turret turret) => PlaceTurret(turret)
+            factory.GetAllBlocks().ForEach(
+                (Block block) => PlaceTurret(block)
             );
         }
 
@@ -136,7 +136,7 @@ namespace KCK_Window_project
         {
             // Prototype.
             SetEnemy("basic", new BasicEnemy(0, 0));
-            SetEnemy("tank", new TankEnemy(0, 0));
+            SetEnemy("red", new RedEnemy(0, 0));
 
             // Ustawienie strategii
             // 0 - poziom latwy.
@@ -154,7 +154,7 @@ namespace KCK_Window_project
             InitializeLists();
 
             // Flyweight
-            PlaceTurrets();
+            PlaceBlocks();
 
             wood = 1500;
             stone = 1500;
@@ -236,16 +236,16 @@ namespace KCK_Window_project
         }
 
         // Namalowanie wiezyczki na mapie.
-        public void PlaceTurret(Turret turret)
+        public void PlaceTurret(Block block)
         {
-            int inOne = turret.GetY() * 10 + turret.GetX();
+            int inOne = block.GetY() * 10 + block.GetX();
             string searched = "label" + inOne + "ee";
             foreach (Label ctrl in this.Controls)
             {
                 if (ctrl.Name == searched)
                 {
                     ctrl.TextAlign = ContentAlignment.TopRight;
-                    ctrl.Image = turret.GetTurretType().GetImage();
+                    ctrl.Image = block.GetBlockType().GetImage();
                 }
             }
         }

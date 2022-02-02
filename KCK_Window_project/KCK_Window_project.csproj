@@ -79,10 +79,10 @@
     </Compile>
     <Compile Include="Strategy.cs" />
     <Compile Include="Subscriber.cs" />
-    <Compile Include="TankEnemy.cs" />
-    <Compile Include="Turret.cs" />
-    <Compile Include="TurretFactory.cs" />
-    <Compile Include="TurretType.cs" />
+    <Compile Include="RedEnemy.cs" />
+    <Compile Include="Block.cs" />
+    <Compile Include="BlockFactory.cs" />
+    <Compile Include="BlockType.cs" />
     <EmbeddedResource Include="EndGame.resx">
       <DependentUpon>EndGame.cs</DependentUpon>
     </EmbeddedResource>
