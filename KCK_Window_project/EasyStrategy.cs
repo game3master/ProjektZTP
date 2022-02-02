@@ -8,9 +8,29 @@ namespace KCK_Window_project
 {
     class EasyStrategy : Strategy
     {
-        void Strategy.Move(Enemy enemy)
+        List<Enemy> Strategy.CreateEnemies(Dictionary<string, Enemy> enemyTypes)
         {
-            enemy.Move();
+            List<Enemy> enemies = new List<Enemy>();
+
+            BasicEnemy basicEnemy = (BasicEnemy)enemyTypes["basic"].Clone();
+            basicEnemy.SetX(1);
+            basicEnemy.SetY(5);
+
+            TankEnemy tankEnemy = (TankEnemy)enemyTypes["tank"].Clone();
+            tankEnemy.SetX(6);
+            tankEnemy.SetY(1);
+
+            enemies.Add(basicEnemy);
+            enemies.Add(tankEnemy);
+            return enemies;
+        }
+
+        void Strategy.MoveEnemies(List<Enemy> enemies)
+        {
+            enemies.ForEach((Enemy enemy) =>
+            {
+                enemy.Move();
+            });
         }
     }
 }

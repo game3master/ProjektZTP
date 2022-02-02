@@ -8,6 +8,8 @@ namespace KCK_Window_project
 {
     public interface Strategy
     {
-        void Move(Enemy enemy);
+        void MoveEnemies(List<Enemy> enemies);
+
+        List<Enemy> CreateEnemies(Dictionary<string, Enemy> enemyTypes);
     }
 }

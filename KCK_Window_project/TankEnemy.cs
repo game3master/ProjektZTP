@@ -6,20 +6,17 @@ using System.Threading.Tasks;
 
 namespace KCK_Window_project
 {
+    enum VerticalDirection
+    {
+        UP,
+        DOWN
+    }
     class TankEnemy : Enemy
     {
+        private VerticalDirection direction = VerticalDirection.DOWN;
         /* Konstruktor */
-        public TankEnemy()
+        public TankEnemy(int posX, int posY) : base(posX, posY)
         {
-            hp = 300;
-            dmg = 10;
-            speed = 1;
-
-            Random rnd = new Random();
-            posX = rnd.Next(10);
-            posY = 0;
-
-            justCreated = true;
             enemyType = "tank";
         }
 
@@ -27,6 +24,29 @@ namespace KCK_Window_project
         public override Enemy Clone()
         {
             return this.MemberwiseClone() as Enemy;
+        }
+
+        public override void Move()
+        {
+            // Sprawdź czy trzeba zmienić kierunek
+            if (this.direction == VerticalDirection.DOWN && this.posY + SPEED >= 14)
+            {
+                this.direction = VerticalDirection.UP;
+            }
+            if (this.direction == VerticalDirection.UP && this.posY - SPEED <= 0)
+            {
+                this.direction = VerticalDirection.DOWN;
+            }
+
+            //Porusz się
+            if (this.direction == VerticalDirection.DOWN)
+            {
+                this.posY += SPEED;
+            }
+            else
+            {
+                this.posY -= SPEED;
+            }
         }
     }
 }

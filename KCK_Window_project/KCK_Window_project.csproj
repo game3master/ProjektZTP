@@ -66,12 +66,11 @@
     <Compile Include="Hero.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
+    <Compile Include="Properties\Resources1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources.cs" />
     <Compile Include="StartGame.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,7 +92,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="StartGame.resx">
       <DependentUpon>StartGame.cs</DependentUpon>
@@ -115,55 +114,14 @@
     <None Include="Resources\enemy.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\wood_phase1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wood_phase2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wood_phase3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\stone_phase1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\stone_phase2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\stone_phase3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\turret_phase1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\turret_phase2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\turret_phase3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\build_upgrade_sound.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\collect_sound.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\player_move_sound.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\enemy_destroyed_sound.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\dmg_dealt_sound.wav" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\enemyTank.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\hero.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\gameover.wav" />
+    <Content Include="Resources\brick_orange.png" />
+    <Content Include="Resources\grassBlock.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

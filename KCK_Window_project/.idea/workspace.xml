@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec2ff54a-0f43-4b6e-8f91-caa0295deb90" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.vs/KCK_Window_project/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/KCK_Window_project/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KCK_Window_project.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/KCK_Window_project.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/enemy.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/enemy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/enemyTank.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/enemyTank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/KCK_Window_project.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/KCK_Window_project.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/KCK_Window_project.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/KCK_Window_project.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/KCK_Window_project.Properties.Resources.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/KCK_Window_project.Properties.Resources.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/KCK_Window_project.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/KCK_Window_project.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/KCK_Window_project.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/KCK_Window_project.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/KCK_Window_project.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/KCK_Window_project.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/KCK_Window_project.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/KCK_Window_project.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/KCK_Window_project.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/KCK_Window_project.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="24WdaY6I3sNDiiCzzA81Qss50OB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec2ff54a-0f43-4b6e-8f91-caa0295deb90" name="Changes" comment="" />
+      <created>1643750345097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643750345097</updated>
+      <workItem from="1643750346798" duration="5000" />
+    </task>
+    <servers />
+  </component>
+</project>

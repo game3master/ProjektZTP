@@ -9,36 +9,23 @@ namespace KCK_Window_project
 {
     public class TurretType
     {
-        private int level;
-        private int dmg;
-        private string name;
+        private int index;
         private Image image;
 
         /* Konstruktor */
-        public TurretType(int level, int dmg, string name, Image image)
+        public TurretType(int index, Image image)
         {
-            this.level = level;
-            this.dmg = dmg;
-            this.name = name;
+            this.index = index;
             this.image = image;
         }
 
-        /* Gettery */
-        public int GetLevel()
+        public int GetIndex()
         {
-            return level;
-        }
-        public int GetDmg()
-        {
-            return dmg;
-        }
-        public string GetName()
-        {
-            return name;
+            return this.index;
         }
         public Image GetImage()
         {
-            return image;
+            return this.image;
         }
     }
 }

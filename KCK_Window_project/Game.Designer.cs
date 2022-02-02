@@ -179,19 +179,12 @@ namespace KCK_Window_project
             this.label142ee = new System.Windows.Forms.Label();
             this.label141ee = new System.Windows.Forms.Label();
             this.label140ee = new System.Windows.Forms.Label();
-            this.labelWood = new System.Windows.Forms.Label();
-            this.labelStone = new System.Windows.Forms.Label();
-            this.labelScore = new System.Windows.Forms.Label();
-            this.labelHP = new System.Windows.Forms.Label();
-            this.labelInfo = new System.Windows.Forms.Label();
             this.labelControls1 = new System.Windows.Forms.Label();
-            this.labelControls2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label0ee
             // 
-            this.label0ee.BackColor = System.Drawing.Color.LightGray;
-            this.label0ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label0ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label0ee.Location = new System.Drawing.Point(12, 9);
             this.label0ee.Margin = new System.Windows.Forms.Padding(0);
             this.label0ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -202,8 +195,7 @@ namespace KCK_Window_project
             // 
             // label1ee
             // 
-            this.label1ee.BackColor = System.Drawing.Color.LightGray;
-            this.label1ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label1ee.Location = new System.Drawing.Point(32, 9);
             this.label1ee.Margin = new System.Windows.Forms.Padding(0);
             this.label1ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -214,8 +206,7 @@ namespace KCK_Window_project
             // 
             // label2ee
             // 
-            this.label2ee.BackColor = System.Drawing.Color.LightGray;
-            this.label2ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label2ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label2ee.Location = new System.Drawing.Point(52, 9);
             this.label2ee.Margin = new System.Windows.Forms.Padding(0);
             this.label2ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -226,8 +217,7 @@ namespace KCK_Window_project
             // 
             // label3ee
             // 
-            this.label3ee.BackColor = System.Drawing.Color.LightGray;
-            this.label3ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label3ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label3ee.Location = new System.Drawing.Point(72, 9);
             this.label3ee.Margin = new System.Windows.Forms.Padding(0);
             this.label3ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -238,8 +228,7 @@ namespace KCK_Window_project
             // 
             // label4ee
             // 
-            this.label4ee.BackColor = System.Drawing.Color.LightGray;
-            this.label4ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label4ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label4ee.Location = new System.Drawing.Point(92, 9);
             this.label4ee.Margin = new System.Windows.Forms.Padding(0);
             this.label4ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -250,8 +239,7 @@ namespace KCK_Window_project
             // 
             // label5ee
             // 
-            this.label5ee.BackColor = System.Drawing.Color.LightGray;
-            this.label5ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label5ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label5ee.Location = new System.Drawing.Point(112, 9);
             this.label5ee.Margin = new System.Windows.Forms.Padding(0);
             this.label5ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -262,8 +250,7 @@ namespace KCK_Window_project
             // 
             // label6ee
             // 
-            this.label6ee.BackColor = System.Drawing.Color.LightGray;
-            this.label6ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label6ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label6ee.Location = new System.Drawing.Point(132, 9);
             this.label6ee.Margin = new System.Windows.Forms.Padding(0);
             this.label6ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -274,8 +261,7 @@ namespace KCK_Window_project
             // 
             // label7ee
             // 
-            this.label7ee.BackColor = System.Drawing.Color.LightGray;
-            this.label7ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label7ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label7ee.Location = new System.Drawing.Point(152, 9);
             this.label7ee.Margin = new System.Windows.Forms.Padding(0);
             this.label7ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -286,8 +272,7 @@ namespace KCK_Window_project
             // 
             // label8ee
             // 
-            this.label8ee.BackColor = System.Drawing.Color.LightGray;
-            this.label8ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label8ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label8ee.Location = new System.Drawing.Point(172, 9);
             this.label8ee.Margin = new System.Windows.Forms.Padding(0);
             this.label8ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -298,8 +283,7 @@ namespace KCK_Window_project
             // 
             // label9ee
             // 
-            this.label9ee.BackColor = System.Drawing.Color.LightGray;
-            this.label9ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label9ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label9ee.Location = new System.Drawing.Point(192, 9);
             this.label9ee.Margin = new System.Windows.Forms.Padding(0);
             this.label9ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -310,8 +294,7 @@ namespace KCK_Window_project
             // 
             // label19ee
             // 
-            this.label19ee.BackColor = System.Drawing.Color.LightGray;
-            this.label19ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label19ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label19ee.Location = new System.Drawing.Point(192, 29);
             this.label19ee.Margin = new System.Windows.Forms.Padding(0);
             this.label19ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -322,8 +305,7 @@ namespace KCK_Window_project
             // 
             // label18ee
             // 
-            this.label18ee.BackColor = System.Drawing.Color.LightGray;
-            this.label18ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label18ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label18ee.Location = new System.Drawing.Point(172, 29);
             this.label18ee.Margin = new System.Windows.Forms.Padding(0);
             this.label18ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -334,8 +316,7 @@ namespace KCK_Window_project
             // 
             // label17ee
             // 
-            this.label17ee.BackColor = System.Drawing.Color.LightGray;
-            this.label17ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label17ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label17ee.Location = new System.Drawing.Point(152, 29);
             this.label17ee.Margin = new System.Windows.Forms.Padding(0);
             this.label17ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -346,8 +327,7 @@ namespace KCK_Window_project
             // 
             // label16ee
             // 
-            this.label16ee.BackColor = System.Drawing.Color.LightGray;
-            this.label16ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label16ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label16ee.Location = new System.Drawing.Point(132, 29);
             this.label16ee.Margin = new System.Windows.Forms.Padding(0);
             this.label16ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -358,8 +338,7 @@ namespace KCK_Window_project
             // 
             // label15ee
             // 
-            this.label15ee.BackColor = System.Drawing.Color.LightGray;
-            this.label15ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label15ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label15ee.Location = new System.Drawing.Point(112, 29);
             this.label15ee.Margin = new System.Windows.Forms.Padding(0);
             this.label15ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -370,8 +349,7 @@ namespace KCK_Window_project
             // 
             // label14ee
             // 
-            this.label14ee.BackColor = System.Drawing.Color.LightGray;
-            this.label14ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label14ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label14ee.Location = new System.Drawing.Point(92, 29);
             this.label14ee.Margin = new System.Windows.Forms.Padding(0);
             this.label14ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -382,8 +360,7 @@ namespace KCK_Window_project
             // 
             // label13ee
             // 
-            this.label13ee.BackColor = System.Drawing.Color.LightGray;
-            this.label13ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label13ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label13ee.Location = new System.Drawing.Point(72, 29);
             this.label13ee.Margin = new System.Windows.Forms.Padding(0);
             this.label13ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -394,8 +371,7 @@ namespace KCK_Window_project
             // 
             // label12ee
             // 
-            this.label12ee.BackColor = System.Drawing.Color.LightGray;
-            this.label12ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label12ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label12ee.Location = new System.Drawing.Point(52, 29);
             this.label12ee.Margin = new System.Windows.Forms.Padding(0);
             this.label12ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -406,8 +382,7 @@ namespace KCK_Window_project
             // 
             // label11ee
             // 
-            this.label11ee.BackColor = System.Drawing.Color.LightGray;
-            this.label11ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label11ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label11ee.Location = new System.Drawing.Point(32, 29);
             this.label11ee.Margin = new System.Windows.Forms.Padding(0);
             this.label11ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -418,8 +393,7 @@ namespace KCK_Window_project
             // 
             // label10ee
             // 
-            this.label10ee.BackColor = System.Drawing.Color.LightGray;
-            this.label10ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label10ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label10ee.Location = new System.Drawing.Point(12, 29);
             this.label10ee.Margin = new System.Windows.Forms.Padding(0);
             this.label10ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -430,8 +404,7 @@ namespace KCK_Window_project
             // 
             // label29ee
             // 
-            this.label29ee.BackColor = System.Drawing.Color.LightGray;
-            this.label29ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label29ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label29ee.Location = new System.Drawing.Point(192, 49);
             this.label29ee.Margin = new System.Windows.Forms.Padding(0);
             this.label29ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -442,8 +415,7 @@ namespace KCK_Window_project
             // 
             // label28ee
             // 
-            this.label28ee.BackColor = System.Drawing.Color.LightGray;
-            this.label28ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label28ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label28ee.Location = new System.Drawing.Point(172, 49);
             this.label28ee.Margin = new System.Windows.Forms.Padding(0);
             this.label28ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -454,8 +426,7 @@ namespace KCK_Window_project
             // 
             // label27ee
             // 
-            this.label27ee.BackColor = System.Drawing.Color.LightGray;
-            this.label27ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label27ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label27ee.Location = new System.Drawing.Point(152, 49);
             this.label27ee.Margin = new System.Windows.Forms.Padding(0);
             this.label27ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -466,8 +437,7 @@ namespace KCK_Window_project
             // 
             // label26ee
             // 
-            this.label26ee.BackColor = System.Drawing.Color.LightGray;
-            this.label26ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label26ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label26ee.Location = new System.Drawing.Point(132, 49);
             this.label26ee.Margin = new System.Windows.Forms.Padding(0);
             this.label26ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -478,8 +448,7 @@ namespace KCK_Window_project
             // 
             // label25ee
             // 
-            this.label25ee.BackColor = System.Drawing.Color.LightGray;
-            this.label25ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label25ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label25ee.Location = new System.Drawing.Point(112, 49);
             this.label25ee.Margin = new System.Windows.Forms.Padding(0);
             this.label25ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -490,8 +459,7 @@ namespace KCK_Window_project
             // 
             // label24ee
             // 
-            this.label24ee.BackColor = System.Drawing.Color.LightGray;
-            this.label24ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label24ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label24ee.Location = new System.Drawing.Point(92, 49);
             this.label24ee.Margin = new System.Windows.Forms.Padding(0);
             this.label24ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -502,8 +470,7 @@ namespace KCK_Window_project
             // 
             // label23ee
             // 
-            this.label23ee.BackColor = System.Drawing.Color.LightGray;
-            this.label23ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label23ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label23ee.Location = new System.Drawing.Point(72, 49);
             this.label23ee.Margin = new System.Windows.Forms.Padding(0);
             this.label23ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -514,9 +481,7 @@ namespace KCK_Window_project
             // 
             // label22ee
             // 
-            this.label22ee.BackColor = System.Drawing.Color.LightGray;
-            this.label22ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label22ee.Image = global::KCK_Window_project.Properties.Resources.enemy;
+            this.label22ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label22ee.Location = new System.Drawing.Point(52, 49);
             this.label22ee.Margin = new System.Windows.Forms.Padding(0);
             this.label22ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -527,8 +492,7 @@ namespace KCK_Window_project
             // 
             // label21ee
             // 
-            this.label21ee.BackColor = System.Drawing.Color.LightGray;
-            this.label21ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label21ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label21ee.Location = new System.Drawing.Point(32, 49);
             this.label21ee.Margin = new System.Windows.Forms.Padding(0);
             this.label21ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -539,8 +503,7 @@ namespace KCK_Window_project
             // 
             // label20ee
             // 
-            this.label20ee.BackColor = System.Drawing.Color.LightGray;
-            this.label20ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label20ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label20ee.Location = new System.Drawing.Point(12, 49);
             this.label20ee.Margin = new System.Windows.Forms.Padding(0);
             this.label20ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -551,8 +514,7 @@ namespace KCK_Window_project
             // 
             // label39ee
             // 
-            this.label39ee.BackColor = System.Drawing.Color.LightGray;
-            this.label39ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label39ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label39ee.Location = new System.Drawing.Point(192, 69);
             this.label39ee.Margin = new System.Windows.Forms.Padding(0);
             this.label39ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -563,8 +525,7 @@ namespace KCK_Window_project
             // 
             // label38ee
             // 
-            this.label38ee.BackColor = System.Drawing.Color.LightGray;
-            this.label38ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label38ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label38ee.Location = new System.Drawing.Point(172, 69);
             this.label38ee.Margin = new System.Windows.Forms.Padding(0);
             this.label38ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -575,8 +536,7 @@ namespace KCK_Window_project
             // 
             // label37ee
             // 
-            this.label37ee.BackColor = System.Drawing.Color.LightGray;
-            this.label37ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label37ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label37ee.Location = new System.Drawing.Point(152, 69);
             this.label37ee.Margin = new System.Windows.Forms.Padding(0);
             this.label37ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -587,8 +547,7 @@ namespace KCK_Window_project
             // 
             // label36ee
             // 
-            this.label36ee.BackColor = System.Drawing.Color.LightGray;
-            this.label36ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label36ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label36ee.Location = new System.Drawing.Point(132, 69);
             this.label36ee.Margin = new System.Windows.Forms.Padding(0);
             this.label36ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -599,8 +558,7 @@ namespace KCK_Window_project
             // 
             // label35ee
             // 
-            this.label35ee.BackColor = System.Drawing.Color.LightGray;
-            this.label35ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label35ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label35ee.Location = new System.Drawing.Point(112, 69);
             this.label35ee.Margin = new System.Windows.Forms.Padding(0);
             this.label35ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -611,8 +569,7 @@ namespace KCK_Window_project
             // 
             // label34ee
             // 
-            this.label34ee.BackColor = System.Drawing.Color.LightGray;
-            this.label34ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label34ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label34ee.Location = new System.Drawing.Point(92, 69);
             this.label34ee.Margin = new System.Windows.Forms.Padding(0);
             this.label34ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -623,8 +580,7 @@ namespace KCK_Window_project
             // 
             // label33ee
             // 
-            this.label33ee.BackColor = System.Drawing.Color.LightGray;
-            this.label33ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label33ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label33ee.Location = new System.Drawing.Point(72, 69);
             this.label33ee.Margin = new System.Windows.Forms.Padding(0);
             this.label33ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -635,8 +591,7 @@ namespace KCK_Window_project
             // 
             // label32ee
             // 
-            this.label32ee.BackColor = System.Drawing.Color.LightGray;
-            this.label32ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label32ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label32ee.Location = new System.Drawing.Point(52, 69);
             this.label32ee.Margin = new System.Windows.Forms.Padding(0);
             this.label32ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -647,8 +602,7 @@ namespace KCK_Window_project
             // 
             // label31ee
             // 
-            this.label31ee.BackColor = System.Drawing.Color.LightGray;
-            this.label31ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label31ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label31ee.Location = new System.Drawing.Point(32, 69);
             this.label31ee.Margin = new System.Windows.Forms.Padding(0);
             this.label31ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -659,8 +613,7 @@ namespace KCK_Window_project
             // 
             // label30ee
             // 
-            this.label30ee.BackColor = System.Drawing.Color.LightGray;
-            this.label30ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label30ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label30ee.Location = new System.Drawing.Point(12, 69);
             this.label30ee.Margin = new System.Windows.Forms.Padding(0);
             this.label30ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -671,8 +624,7 @@ namespace KCK_Window_project
             // 
             // label49ee
             // 
-            this.label49ee.BackColor = System.Drawing.Color.LightGray;
-            this.label49ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label49ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label49ee.Location = new System.Drawing.Point(192, 89);
             this.label49ee.Margin = new System.Windows.Forms.Padding(0);
             this.label49ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -683,8 +635,7 @@ namespace KCK_Window_project
             // 
             // label48ee
             // 
-            this.label48ee.BackColor = System.Drawing.Color.LightGray;
-            this.label48ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label48ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label48ee.Location = new System.Drawing.Point(172, 89);
             this.label48ee.Margin = new System.Windows.Forms.Padding(0);
             this.label48ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -695,8 +646,7 @@ namespace KCK_Window_project
             // 
             // label47ee
             // 
-            this.label47ee.BackColor = System.Drawing.Color.LightGray;
-            this.label47ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label47ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label47ee.Location = new System.Drawing.Point(152, 89);
             this.label47ee.Margin = new System.Windows.Forms.Padding(0);
             this.label47ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -707,8 +657,7 @@ namespace KCK_Window_project
             // 
             // label46ee
             // 
-            this.label46ee.BackColor = System.Drawing.Color.LightGray;
-            this.label46ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label46ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label46ee.Location = new System.Drawing.Point(132, 89);
             this.label46ee.Margin = new System.Windows.Forms.Padding(0);
             this.label46ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -719,8 +668,7 @@ namespace KCK_Window_project
             // 
             // label45ee
             // 
-            this.label45ee.BackColor = System.Drawing.Color.LightGray;
-            this.label45ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label45ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label45ee.Location = new System.Drawing.Point(112, 89);
             this.label45ee.Margin = new System.Windows.Forms.Padding(0);
             this.label45ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -731,8 +679,7 @@ namespace KCK_Window_project
             // 
             // label44ee
             // 
-            this.label44ee.BackColor = System.Drawing.Color.LightGray;
-            this.label44ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label44ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label44ee.Location = new System.Drawing.Point(92, 89);
             this.label44ee.Margin = new System.Windows.Forms.Padding(0);
             this.label44ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -743,8 +690,7 @@ namespace KCK_Window_project
             // 
             // label43ee
             // 
-            this.label43ee.BackColor = System.Drawing.Color.LightGray;
-            this.label43ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label43ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label43ee.Location = new System.Drawing.Point(72, 89);
             this.label43ee.Margin = new System.Windows.Forms.Padding(0);
             this.label43ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -755,8 +701,7 @@ namespace KCK_Window_project
             // 
             // label42ee
             // 
-            this.label42ee.BackColor = System.Drawing.Color.LightGray;
-            this.label42ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label42ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label42ee.Location = new System.Drawing.Point(52, 89);
             this.label42ee.Margin = new System.Windows.Forms.Padding(0);
             this.label42ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -767,8 +712,7 @@ namespace KCK_Window_project
             // 
             // label41ee
             // 
-            this.label41ee.BackColor = System.Drawing.Color.LightGray;
-            this.label41ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label41ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label41ee.Location = new System.Drawing.Point(32, 89);
             this.label41ee.Margin = new System.Windows.Forms.Padding(0);
             this.label41ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -779,8 +723,7 @@ namespace KCK_Window_project
             // 
             // label40ee
             // 
-            this.label40ee.BackColor = System.Drawing.Color.LightGray;
-            this.label40ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label40ee.BackColor = System.Drawing.Color.Chartreuse;
             this.label40ee.Location = new System.Drawing.Point(12, 89);
             this.label40ee.Margin = new System.Windows.Forms.Padding(0);
             this.label40ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -791,8 +734,7 @@ namespace KCK_Window_project
             // 
             // label59ee
             // 
-            this.label59ee.BackColor = System.Drawing.Color.LightGray;
-            this.label59ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label59ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label59ee.Location = new System.Drawing.Point(192, 109);
             this.label59ee.Margin = new System.Windows.Forms.Padding(0);
             this.label59ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -803,8 +745,7 @@ namespace KCK_Window_project
             // 
             // label58ee
             // 
-            this.label58ee.BackColor = System.Drawing.Color.LightGray;
-            this.label58ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label58ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label58ee.Location = new System.Drawing.Point(172, 109);
             this.label58ee.Margin = new System.Windows.Forms.Padding(0);
             this.label58ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -815,8 +756,7 @@ namespace KCK_Window_project
             // 
             // label57ee
             // 
-            this.label57ee.BackColor = System.Drawing.Color.LightGray;
-            this.label57ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label57ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label57ee.Location = new System.Drawing.Point(152, 109);
             this.label57ee.Margin = new System.Windows.Forms.Padding(0);
             this.label57ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -827,8 +767,7 @@ namespace KCK_Window_project
             // 
             // label56ee
             // 
-            this.label56ee.BackColor = System.Drawing.Color.LightGray;
-            this.label56ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label56ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label56ee.Location = new System.Drawing.Point(132, 109);
             this.label56ee.Margin = new System.Windows.Forms.Padding(0);
             this.label56ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -839,8 +778,7 @@ namespace KCK_Window_project
             // 
             // label55ee
             // 
-            this.label55ee.BackColor = System.Drawing.Color.LightGray;
-            this.label55ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label55ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label55ee.Location = new System.Drawing.Point(112, 109);
             this.label55ee.Margin = new System.Windows.Forms.Padding(0);
             this.label55ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -851,8 +789,7 @@ namespace KCK_Window_project
             // 
             // label54ee
             // 
-            this.label54ee.BackColor = System.Drawing.Color.LightGray;
-            this.label54ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label54ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label54ee.Location = new System.Drawing.Point(92, 109);
             this.label54ee.Margin = new System.Windows.Forms.Padding(0);
             this.label54ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -863,8 +800,7 @@ namespace KCK_Window_project
             // 
             // label53ee
             // 
-            this.label53ee.BackColor = System.Drawing.Color.LightGray;
-            this.label53ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label53ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label53ee.Location = new System.Drawing.Point(72, 109);
             this.label53ee.Margin = new System.Windows.Forms.Padding(0);
             this.label53ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -875,8 +811,7 @@ namespace KCK_Window_project
             // 
             // label52ee
             // 
-            this.label52ee.BackColor = System.Drawing.Color.LightGray;
-            this.label52ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label52ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label52ee.Location = new System.Drawing.Point(52, 109);
             this.label52ee.Margin = new System.Windows.Forms.Padding(0);
             this.label52ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -887,8 +822,7 @@ namespace KCK_Window_project
             // 
             // label51ee
             // 
-            this.label51ee.BackColor = System.Drawing.Color.LightGray;
-            this.label51ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label51ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label51ee.Location = new System.Drawing.Point(32, 109);
             this.label51ee.Margin = new System.Windows.Forms.Padding(0);
             this.label51ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -899,8 +833,7 @@ namespace KCK_Window_project
             // 
             // label50ee
             // 
-            this.label50ee.BackColor = System.Drawing.Color.LightGray;
-            this.label50ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label50ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label50ee.Location = new System.Drawing.Point(12, 109);
             this.label50ee.Margin = new System.Windows.Forms.Padding(0);
             this.label50ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -911,8 +844,7 @@ namespace KCK_Window_project
             // 
             // label69ee
             // 
-            this.label69ee.BackColor = System.Drawing.Color.LightGray;
-            this.label69ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label69ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label69ee.Location = new System.Drawing.Point(192, 129);
             this.label69ee.Margin = new System.Windows.Forms.Padding(0);
             this.label69ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -923,8 +855,7 @@ namespace KCK_Window_project
             // 
             // label68ee
             // 
-            this.label68ee.BackColor = System.Drawing.Color.LightGray;
-            this.label68ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label68ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label68ee.Location = new System.Drawing.Point(172, 129);
             this.label68ee.Margin = new System.Windows.Forms.Padding(0);
             this.label68ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -935,8 +866,7 @@ namespace KCK_Window_project
             // 
             // label67ee
             // 
-            this.label67ee.BackColor = System.Drawing.Color.LightGray;
-            this.label67ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label67ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label67ee.Location = new System.Drawing.Point(152, 129);
             this.label67ee.Margin = new System.Windows.Forms.Padding(0);
             this.label67ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -947,8 +877,7 @@ namespace KCK_Window_project
             // 
             // label66ee
             // 
-            this.label66ee.BackColor = System.Drawing.Color.LightGray;
-            this.label66ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label66ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label66ee.Location = new System.Drawing.Point(132, 129);
             this.label66ee.Margin = new System.Windows.Forms.Padding(0);
             this.label66ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -959,8 +888,7 @@ namespace KCK_Window_project
             // 
             // label65ee
             // 
-            this.label65ee.BackColor = System.Drawing.Color.LightGray;
-            this.label65ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label65ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label65ee.Location = new System.Drawing.Point(112, 129);
             this.label65ee.Margin = new System.Windows.Forms.Padding(0);
             this.label65ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -971,8 +899,7 @@ namespace KCK_Window_project
             // 
             // label64ee
             // 
-            this.label64ee.BackColor = System.Drawing.Color.LightGray;
-            this.label64ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label64ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label64ee.Location = new System.Drawing.Point(92, 129);
             this.label64ee.Margin = new System.Windows.Forms.Padding(0);
             this.label64ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -983,8 +910,7 @@ namespace KCK_Window_project
             // 
             // label63ee
             // 
-            this.label63ee.BackColor = System.Drawing.Color.LightGray;
-            this.label63ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label63ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label63ee.Location = new System.Drawing.Point(72, 129);
             this.label63ee.Margin = new System.Windows.Forms.Padding(0);
             this.label63ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -995,8 +921,7 @@ namespace KCK_Window_project
             // 
             // label62ee
             // 
-            this.label62ee.BackColor = System.Drawing.Color.LightGray;
-            this.label62ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label62ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label62ee.Location = new System.Drawing.Point(52, 129);
             this.label62ee.Margin = new System.Windows.Forms.Padding(0);
             this.label62ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1007,8 +932,7 @@ namespace KCK_Window_project
             // 
             // label61ee
             // 
-            this.label61ee.BackColor = System.Drawing.Color.LightGray;
-            this.label61ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label61ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label61ee.Location = new System.Drawing.Point(32, 129);
             this.label61ee.Margin = new System.Windows.Forms.Padding(0);
             this.label61ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1019,8 +943,7 @@ namespace KCK_Window_project
             // 
             // label60ee
             // 
-            this.label60ee.BackColor = System.Drawing.Color.LightGray;
-            this.label60ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label60ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label60ee.Location = new System.Drawing.Point(12, 129);
             this.label60ee.Margin = new System.Windows.Forms.Padding(0);
             this.label60ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1031,8 +954,7 @@ namespace KCK_Window_project
             // 
             // label79ee
             // 
-            this.label79ee.BackColor = System.Drawing.Color.LightGray;
-            this.label79ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label79ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label79ee.Location = new System.Drawing.Point(192, 149);
             this.label79ee.Margin = new System.Windows.Forms.Padding(0);
             this.label79ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1043,8 +965,7 @@ namespace KCK_Window_project
             // 
             // label78ee
             // 
-            this.label78ee.BackColor = System.Drawing.Color.LightGray;
-            this.label78ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label78ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label78ee.Location = new System.Drawing.Point(172, 149);
             this.label78ee.Margin = new System.Windows.Forms.Padding(0);
             this.label78ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1055,8 +976,7 @@ namespace KCK_Window_project
             // 
             // label77ee
             // 
-            this.label77ee.BackColor = System.Drawing.Color.LightGray;
-            this.label77ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label77ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label77ee.Location = new System.Drawing.Point(152, 149);
             this.label77ee.Margin = new System.Windows.Forms.Padding(0);
             this.label77ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1067,8 +987,7 @@ namespace KCK_Window_project
             // 
             // label76ee
             // 
-            this.label76ee.BackColor = System.Drawing.Color.LightGray;
-            this.label76ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label76ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label76ee.Location = new System.Drawing.Point(132, 149);
             this.label76ee.Margin = new System.Windows.Forms.Padding(0);
             this.label76ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1079,8 +998,7 @@ namespace KCK_Window_project
             // 
             // label75ee
             // 
-            this.label75ee.BackColor = System.Drawing.Color.LightGray;
-            this.label75ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label75ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label75ee.Location = new System.Drawing.Point(112, 149);
             this.label75ee.Margin = new System.Windows.Forms.Padding(0);
             this.label75ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1091,8 +1009,7 @@ namespace KCK_Window_project
             // 
             // label74ee
             // 
-            this.label74ee.BackColor = System.Drawing.Color.LightGray;
-            this.label74ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label74ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label74ee.Location = new System.Drawing.Point(92, 149);
             this.label74ee.Margin = new System.Windows.Forms.Padding(0);
             this.label74ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1103,8 +1020,7 @@ namespace KCK_Window_project
             // 
             // label73ee
             // 
-            this.label73ee.BackColor = System.Drawing.Color.LightGray;
-            this.label73ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label73ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label73ee.Location = new System.Drawing.Point(72, 149);
             this.label73ee.Margin = new System.Windows.Forms.Padding(0);
             this.label73ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1115,8 +1031,7 @@ namespace KCK_Window_project
             // 
             // label72ee
             // 
-            this.label72ee.BackColor = System.Drawing.Color.LightGray;
-            this.label72ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label72ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label72ee.Location = new System.Drawing.Point(52, 149);
             this.label72ee.Margin = new System.Windows.Forms.Padding(0);
             this.label72ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1127,8 +1042,7 @@ namespace KCK_Window_project
             // 
             // label71ee
             // 
-            this.label71ee.BackColor = System.Drawing.Color.LightGray;
-            this.label71ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label71ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label71ee.Location = new System.Drawing.Point(32, 149);
             this.label71ee.Margin = new System.Windows.Forms.Padding(0);
             this.label71ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1139,8 +1053,7 @@ namespace KCK_Window_project
             // 
             // label70ee
             // 
-            this.label70ee.BackColor = System.Drawing.Color.LightGray;
-            this.label70ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label70ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label70ee.Location = new System.Drawing.Point(12, 149);
             this.label70ee.Margin = new System.Windows.Forms.Padding(0);
             this.label70ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1151,8 +1064,7 @@ namespace KCK_Window_project
             // 
             // label89ee
             // 
-            this.label89ee.BackColor = System.Drawing.Color.LightGray;
-            this.label89ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label89ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label89ee.Location = new System.Drawing.Point(192, 169);
             this.label89ee.Margin = new System.Windows.Forms.Padding(0);
             this.label89ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1163,8 +1075,7 @@ namespace KCK_Window_project
             // 
             // label88ee
             // 
-            this.label88ee.BackColor = System.Drawing.Color.LightGray;
-            this.label88ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label88ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label88ee.Location = new System.Drawing.Point(172, 169);
             this.label88ee.Margin = new System.Windows.Forms.Padding(0);
             this.label88ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1175,8 +1086,7 @@ namespace KCK_Window_project
             // 
             // label87ee
             // 
-            this.label87ee.BackColor = System.Drawing.Color.LightGray;
-            this.label87ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label87ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label87ee.Location = new System.Drawing.Point(152, 169);
             this.label87ee.Margin = new System.Windows.Forms.Padding(0);
             this.label87ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1187,8 +1097,7 @@ namespace KCK_Window_project
             // 
             // label86ee
             // 
-            this.label86ee.BackColor = System.Drawing.Color.LightGray;
-            this.label86ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label86ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label86ee.Location = new System.Drawing.Point(132, 169);
             this.label86ee.Margin = new System.Windows.Forms.Padding(0);
             this.label86ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1199,8 +1108,7 @@ namespace KCK_Window_project
             // 
             // label85ee
             // 
-            this.label85ee.BackColor = System.Drawing.Color.LightGray;
-            this.label85ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label85ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label85ee.Location = new System.Drawing.Point(112, 169);
             this.label85ee.Margin = new System.Windows.Forms.Padding(0);
             this.label85ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1211,8 +1119,7 @@ namespace KCK_Window_project
             // 
             // label84ee
             // 
-            this.label84ee.BackColor = System.Drawing.Color.LightGray;
-            this.label84ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label84ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label84ee.Location = new System.Drawing.Point(92, 169);
             this.label84ee.Margin = new System.Windows.Forms.Padding(0);
             this.label84ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1223,8 +1130,7 @@ namespace KCK_Window_project
             // 
             // label83ee
             // 
-            this.label83ee.BackColor = System.Drawing.Color.LightGray;
-            this.label83ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label83ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label83ee.Location = new System.Drawing.Point(72, 169);
             this.label83ee.Margin = new System.Windows.Forms.Padding(0);
             this.label83ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1235,8 +1141,7 @@ namespace KCK_Window_project
             // 
             // label82ee
             // 
-            this.label82ee.BackColor = System.Drawing.Color.LightGray;
-            this.label82ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label82ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label82ee.Location = new System.Drawing.Point(52, 169);
             this.label82ee.Margin = new System.Windows.Forms.Padding(0);
             this.label82ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1247,8 +1152,7 @@ namespace KCK_Window_project
             // 
             // label81ee
             // 
-            this.label81ee.BackColor = System.Drawing.Color.LightGray;
-            this.label81ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label81ee.BackColor = System.Drawing.Color.YellowGreen;
             this.label81ee.Location = new System.Drawing.Point(32, 169);
             this.label81ee.Margin = new System.Windows.Forms.Padding(0);
             this.label81ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1259,8 +1163,7 @@ namespace KCK_Window_project
             // 
             // label80ee
             // 
-            this.label80ee.BackColor = System.Drawing.Color.LightGray;
-            this.label80ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label80ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label80ee.Location = new System.Drawing.Point(12, 169);
             this.label80ee.Margin = new System.Windows.Forms.Padding(0);
             this.label80ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1271,8 +1174,7 @@ namespace KCK_Window_project
             // 
             // label99ee
             // 
-            this.label99ee.BackColor = System.Drawing.Color.LightGray;
-            this.label99ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label99ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label99ee.Location = new System.Drawing.Point(192, 189);
             this.label99ee.Margin = new System.Windows.Forms.Padding(0);
             this.label99ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1283,8 +1185,7 @@ namespace KCK_Window_project
             // 
             // label98ee
             // 
-            this.label98ee.BackColor = System.Drawing.Color.LightGray;
-            this.label98ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label98ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label98ee.Location = new System.Drawing.Point(172, 189);
             this.label98ee.Margin = new System.Windows.Forms.Padding(0);
             this.label98ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1295,8 +1196,7 @@ namespace KCK_Window_project
             // 
             // label97ee
             // 
-            this.label97ee.BackColor = System.Drawing.Color.LightGray;
-            this.label97ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label97ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label97ee.Location = new System.Drawing.Point(152, 189);
             this.label97ee.Margin = new System.Windows.Forms.Padding(0);
             this.label97ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1307,8 +1207,7 @@ namespace KCK_Window_project
             // 
             // label96ee
             // 
-            this.label96ee.BackColor = System.Drawing.Color.LightGray;
-            this.label96ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label96ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label96ee.Location = new System.Drawing.Point(132, 189);
             this.label96ee.Margin = new System.Windows.Forms.Padding(0);
             this.label96ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1319,8 +1218,7 @@ namespace KCK_Window_project
             // 
             // label95ee
             // 
-            this.label95ee.BackColor = System.Drawing.Color.LightGray;
-            this.label95ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label95ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label95ee.Location = new System.Drawing.Point(112, 189);
             this.label95ee.Margin = new System.Windows.Forms.Padding(0);
             this.label95ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1331,8 +1229,7 @@ namespace KCK_Window_project
             // 
             // label94ee
             // 
-            this.label94ee.BackColor = System.Drawing.Color.LightGray;
-            this.label94ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label94ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label94ee.Location = new System.Drawing.Point(92, 189);
             this.label94ee.Margin = new System.Windows.Forms.Padding(0);
             this.label94ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1343,8 +1240,7 @@ namespace KCK_Window_project
             // 
             // label93ee
             // 
-            this.label93ee.BackColor = System.Drawing.Color.LightGray;
-            this.label93ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label93ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label93ee.Location = new System.Drawing.Point(72, 189);
             this.label93ee.Margin = new System.Windows.Forms.Padding(0);
             this.label93ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1355,8 +1251,7 @@ namespace KCK_Window_project
             // 
             // label92ee
             // 
-            this.label92ee.BackColor = System.Drawing.Color.LightGray;
-            this.label92ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label92ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label92ee.Location = new System.Drawing.Point(52, 189);
             this.label92ee.Margin = new System.Windows.Forms.Padding(0);
             this.label92ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1367,8 +1262,7 @@ namespace KCK_Window_project
             // 
             // label91ee
             // 
-            this.label91ee.BackColor = System.Drawing.Color.LightGray;
-            this.label91ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label91ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label91ee.Location = new System.Drawing.Point(32, 189);
             this.label91ee.Margin = new System.Windows.Forms.Padding(0);
             this.label91ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1379,8 +1273,7 @@ namespace KCK_Window_project
             // 
             // label90ee
             // 
-            this.label90ee.BackColor = System.Drawing.Color.LightGray;
-            this.label90ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label90ee.BackColor = System.Drawing.Color.OliveDrab;
             this.label90ee.Location = new System.Drawing.Point(12, 189);
             this.label90ee.Margin = new System.Windows.Forms.Padding(0);
             this.label90ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1392,6 +1285,7 @@ namespace KCK_Window_project
             // label109ee
             // 
             this.label109ee.BackColor = System.Drawing.Color.DarkBlue;
+            this.label109ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label109ee.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label109ee.Location = new System.Drawing.Point(192, 209);
             this.label109ee.Margin = new System.Windows.Forms.Padding(0);
@@ -1404,6 +1298,7 @@ namespace KCK_Window_project
             // label108ee
             // 
             this.label108ee.BackColor = System.Drawing.Color.DarkBlue;
+            this.label108ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label108ee.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label108ee.Location = new System.Drawing.Point(172, 209);
             this.label108ee.Margin = new System.Windows.Forms.Padding(0);
@@ -1411,12 +1306,12 @@ namespace KCK_Window_project
             this.label108ee.Name = "label108ee";
             this.label108ee.Size = new System.Drawing.Size(20, 20);
             this.label108ee.TabIndex = 108;
-            this.label108ee.Text = ".";
             this.label108ee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label107ee
             // 
             this.label107ee.BackColor = System.Drawing.Color.DarkBlue;
+            this.label107ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label107ee.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label107ee.Location = new System.Drawing.Point(152, 209);
             this.label107ee.Margin = new System.Windows.Forms.Padding(0);
@@ -1429,6 +1324,7 @@ namespace KCK_Window_project
             // label106ee
             // 
             this.label106ee.BackColor = System.Drawing.Color.DarkBlue;
+            this.label106ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label106ee.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label106ee.Location = new System.Drawing.Point(132, 209);
             this.label106ee.Margin = new System.Windows.Forms.Padding(0);
@@ -1440,7 +1336,7 @@ namespace KCK_Window_project
             // 
             // label105ee
             // 
-            this.label105ee.BackColor = System.Drawing.Color.DarkBlue;
+            this.label105ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label105ee.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label105ee.Location = new System.Drawing.Point(112, 209);
             this.label105ee.Margin = new System.Windows.Forms.Padding(0);
@@ -1448,12 +1344,11 @@ namespace KCK_Window_project
             this.label105ee.Name = "label105ee";
             this.label105ee.Size = new System.Drawing.Size(20, 20);
             this.label105ee.TabIndex = 105;
-            this.label105ee.Text = ".";
             this.label105ee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label104ee
             // 
-            this.label104ee.BackColor = System.Drawing.Color.DarkBlue;
+            this.label104ee.BackColor = System.Drawing.Color.SaddleBrown;
             this.label104ee.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label104ee.Location = new System.Drawing.Point(92, 209);
             this.label104ee.Margin = new System.Windows.Forms.Padding(0);
@@ -1461,12 +1356,12 @@ namespace KCK_Window_project
             this.label104ee.Name = "label104ee";
             this.label104ee.Size = new System.Drawing.Size(20, 20);
             this.label104ee.TabIndex = 104;
-            this.label104ee.Text = ".";
             this.label104ee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label103ee
             // 
             this.label103ee.BackColor = System.Drawing.Color.DarkBlue;
+            this.label103ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label103ee.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label103ee.Location = new System.Drawing.Point(72, 209);
             this.label103ee.Margin = new System.Windows.Forms.Padding(0);
@@ -1474,12 +1369,12 @@ namespace KCK_Window_project
             this.label103ee.Name = "label103ee";
             this.label103ee.Size = new System.Drawing.Size(20, 20);
             this.label103ee.TabIndex = 103;
-            this.label103ee.Text = ".";
             this.label103ee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label102ee
             // 
             this.label102ee.BackColor = System.Drawing.Color.DarkBlue;
+            this.label102ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label102ee.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label102ee.Location = new System.Drawing.Point(52, 209);
             this.label102ee.Margin = new System.Windows.Forms.Padding(0);
@@ -1487,12 +1382,12 @@ namespace KCK_Window_project
             this.label102ee.Name = "label102ee";
             this.label102ee.Size = new System.Drawing.Size(20, 20);
             this.label102ee.TabIndex = 102;
-            this.label102ee.Text = ".";
             this.label102ee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label101ee
             // 
             this.label101ee.BackColor = System.Drawing.Color.DarkBlue;
+            this.label101ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label101ee.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label101ee.Location = new System.Drawing.Point(32, 209);
             this.label101ee.Margin = new System.Windows.Forms.Padding(0);
@@ -1500,12 +1395,12 @@ namespace KCK_Window_project
             this.label101ee.Name = "label101ee";
             this.label101ee.Size = new System.Drawing.Size(20, 20);
             this.label101ee.TabIndex = 101;
-            this.label101ee.Text = ".";
             this.label101ee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label100ee
             // 
             this.label100ee.BackColor = System.Drawing.Color.DarkBlue;
+            this.label100ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label100ee.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label100ee.Location = new System.Drawing.Point(12, 209);
             this.label100ee.Margin = new System.Windows.Forms.Padding(0);
@@ -1513,12 +1408,12 @@ namespace KCK_Window_project
             this.label100ee.Name = "label100ee";
             this.label100ee.Size = new System.Drawing.Size(20, 20);
             this.label100ee.TabIndex = 100;
-            this.label100ee.Text = ".";
             this.label100ee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label119ee
             // 
-            this.label119ee.BackColor = System.Drawing.Color.LightGray;
+            this.label119ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label119ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label119ee.Location = new System.Drawing.Point(192, 229);
             this.label119ee.Margin = new System.Windows.Forms.Padding(0);
             this.label119ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1529,7 +1424,8 @@ namespace KCK_Window_project
             // 
             // label118ee
             // 
-            this.label118ee.BackColor = System.Drawing.Color.LightGray;
+            this.label118ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label118ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label118ee.Location = new System.Drawing.Point(172, 229);
             this.label118ee.Margin = new System.Windows.Forms.Padding(0);
             this.label118ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1540,7 +1436,8 @@ namespace KCK_Window_project
             // 
             // label117ee
             // 
-            this.label117ee.BackColor = System.Drawing.Color.LightGray;
+            this.label117ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label117ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label117ee.Location = new System.Drawing.Point(152, 229);
             this.label117ee.Margin = new System.Windows.Forms.Padding(0);
             this.label117ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1551,7 +1448,8 @@ namespace KCK_Window_project
             // 
             // label116ee
             // 
-            this.label116ee.BackColor = System.Drawing.Color.LightGray;
+            this.label116ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label116ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label116ee.Location = new System.Drawing.Point(132, 229);
             this.label116ee.Margin = new System.Windows.Forms.Padding(0);
             this.label116ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1562,7 +1460,8 @@ namespace KCK_Window_project
             // 
             // label115ee
             // 
-            this.label115ee.BackColor = System.Drawing.Color.LightGray;
+            this.label115ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label115ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label115ee.Location = new System.Drawing.Point(112, 229);
             this.label115ee.Margin = new System.Windows.Forms.Padding(0);
             this.label115ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1573,7 +1472,8 @@ namespace KCK_Window_project
             // 
             // label114ee
             // 
-            this.label114ee.BackColor = System.Drawing.Color.LightGray;
+            this.label114ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label114ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label114ee.Location = new System.Drawing.Point(92, 229);
             this.label114ee.Margin = new System.Windows.Forms.Padding(0);
             this.label114ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1584,7 +1484,8 @@ namespace KCK_Window_project
             // 
             // label113ee
             // 
-            this.label113ee.BackColor = System.Drawing.Color.LightGray;
+            this.label113ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label113ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label113ee.Location = new System.Drawing.Point(72, 229);
             this.label113ee.Margin = new System.Windows.Forms.Padding(0);
             this.label113ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1595,7 +1496,8 @@ namespace KCK_Window_project
             // 
             // label112ee
             // 
-            this.label112ee.BackColor = System.Drawing.Color.LightGray;
+            this.label112ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label112ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label112ee.Location = new System.Drawing.Point(52, 229);
             this.label112ee.Margin = new System.Windows.Forms.Padding(0);
             this.label112ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1606,7 +1508,8 @@ namespace KCK_Window_project
             // 
             // label111ee
             // 
-            this.label111ee.BackColor = System.Drawing.Color.LightGray;
+            this.label111ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label111ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label111ee.Location = new System.Drawing.Point(32, 229);
             this.label111ee.Margin = new System.Windows.Forms.Padding(0);
             this.label111ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1617,7 +1520,8 @@ namespace KCK_Window_project
             // 
             // label110ee
             // 
-            this.label110ee.BackColor = System.Drawing.Color.LightGray;
+            this.label110ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label110ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label110ee.Location = new System.Drawing.Point(12, 229);
             this.label110ee.Margin = new System.Windows.Forms.Padding(0);
             this.label110ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1628,7 +1532,8 @@ namespace KCK_Window_project
             // 
             // label129ee
             // 
-            this.label129ee.BackColor = System.Drawing.Color.LightGray;
+            this.label129ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label129ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label129ee.Location = new System.Drawing.Point(192, 249);
             this.label129ee.Margin = new System.Windows.Forms.Padding(0);
             this.label129ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1639,7 +1544,8 @@ namespace KCK_Window_project
             // 
             // label128ee
             // 
-            this.label128ee.BackColor = System.Drawing.Color.LightGray;
+            this.label128ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label128ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label128ee.Location = new System.Drawing.Point(172, 249);
             this.label128ee.Margin = new System.Windows.Forms.Padding(0);
             this.label128ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1650,7 +1556,8 @@ namespace KCK_Window_project
             // 
             // label127ee
             // 
-            this.label127ee.BackColor = System.Drawing.Color.LightGray;
+            this.label127ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label127ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label127ee.Location = new System.Drawing.Point(152, 249);
             this.label127ee.Margin = new System.Windows.Forms.Padding(0);
             this.label127ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1661,7 +1568,8 @@ namespace KCK_Window_project
             // 
             // label126ee
             // 
-            this.label126ee.BackColor = System.Drawing.Color.LightGray;
+            this.label126ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label126ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label126ee.Location = new System.Drawing.Point(132, 249);
             this.label126ee.Margin = new System.Windows.Forms.Padding(0);
             this.label126ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1672,7 +1580,8 @@ namespace KCK_Window_project
             // 
             // label125ee
             // 
-            this.label125ee.BackColor = System.Drawing.Color.LightGray;
+            this.label125ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label125ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label125ee.Location = new System.Drawing.Point(112, 249);
             this.label125ee.Margin = new System.Windows.Forms.Padding(0);
             this.label125ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1683,7 +1592,8 @@ namespace KCK_Window_project
             // 
             // label124ee
             // 
-            this.label124ee.BackColor = System.Drawing.Color.LightGray;
+            this.label124ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label124ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label124ee.Location = new System.Drawing.Point(92, 249);
             this.label124ee.Margin = new System.Windows.Forms.Padding(0);
             this.label124ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1694,7 +1604,8 @@ namespace KCK_Window_project
             // 
             // label123ee
             // 
-            this.label123ee.BackColor = System.Drawing.Color.LightGray;
+            this.label123ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label123ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label123ee.Location = new System.Drawing.Point(72, 249);
             this.label123ee.Margin = new System.Windows.Forms.Padding(0);
             this.label123ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1705,7 +1616,8 @@ namespace KCK_Window_project
             // 
             // label122ee
             // 
-            this.label122ee.BackColor = System.Drawing.Color.LightGray;
+            this.label122ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label122ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label122ee.Location = new System.Drawing.Point(52, 249);
             this.label122ee.Margin = new System.Windows.Forms.Padding(0);
             this.label122ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1716,7 +1628,8 @@ namespace KCK_Window_project
             // 
             // label121ee
             // 
-            this.label121ee.BackColor = System.Drawing.Color.LightGray;
+            this.label121ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label121ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label121ee.Location = new System.Drawing.Point(32, 249);
             this.label121ee.Margin = new System.Windows.Forms.Padding(0);
             this.label121ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1727,7 +1640,8 @@ namespace KCK_Window_project
             // 
             // label120ee
             // 
-            this.label120ee.BackColor = System.Drawing.Color.LightGray;
+            this.label120ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label120ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label120ee.Location = new System.Drawing.Point(12, 249);
             this.label120ee.Margin = new System.Windows.Forms.Padding(0);
             this.label120ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1738,7 +1652,8 @@ namespace KCK_Window_project
             // 
             // label139ee
             // 
-            this.label139ee.BackColor = System.Drawing.Color.LightGray;
+            this.label139ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label139ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label139ee.Location = new System.Drawing.Point(192, 269);
             this.label139ee.Margin = new System.Windows.Forms.Padding(0);
             this.label139ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1749,8 +1664,8 @@ namespace KCK_Window_project
             // 
             // label138ee
             // 
-            this.label138ee.BackColor = System.Drawing.Color.LightGray;
-            this.label138ee.Image = global::KCK_Window_project.Properties.Resources.enemyTank;
+            this.label138ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label138ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label138ee.Location = new System.Drawing.Point(172, 269);
             this.label138ee.Margin = new System.Windows.Forms.Padding(0);
             this.label138ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1761,7 +1676,8 @@ namespace KCK_Window_project
             // 
             // label137ee
             // 
-            this.label137ee.BackColor = System.Drawing.Color.LightGray;
+            this.label137ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label137ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label137ee.Location = new System.Drawing.Point(152, 269);
             this.label137ee.Margin = new System.Windows.Forms.Padding(0);
             this.label137ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1772,7 +1688,8 @@ namespace KCK_Window_project
             // 
             // label136ee
             // 
-            this.label136ee.BackColor = System.Drawing.Color.LightGray;
+            this.label136ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label136ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label136ee.Location = new System.Drawing.Point(132, 269);
             this.label136ee.Margin = new System.Windows.Forms.Padding(0);
             this.label136ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1783,7 +1700,8 @@ namespace KCK_Window_project
             // 
             // label135ee
             // 
-            this.label135ee.BackColor = System.Drawing.Color.LightGray;
+            this.label135ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label135ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label135ee.Location = new System.Drawing.Point(112, 269);
             this.label135ee.Margin = new System.Windows.Forms.Padding(0);
             this.label135ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1794,7 +1712,8 @@ namespace KCK_Window_project
             // 
             // label134ee
             // 
-            this.label134ee.BackColor = System.Drawing.Color.LightGray;
+            this.label134ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label134ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label134ee.Location = new System.Drawing.Point(92, 269);
             this.label134ee.Margin = new System.Windows.Forms.Padding(0);
             this.label134ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1805,7 +1724,8 @@ namespace KCK_Window_project
             // 
             // label133ee
             // 
-            this.label133ee.BackColor = System.Drawing.Color.LightGray;
+            this.label133ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label133ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label133ee.Location = new System.Drawing.Point(72, 269);
             this.label133ee.Margin = new System.Windows.Forms.Padding(0);
             this.label133ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1816,7 +1736,8 @@ namespace KCK_Window_project
             // 
             // label132ee
             // 
-            this.label132ee.BackColor = System.Drawing.Color.LightGray;
+            this.label132ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label132ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label132ee.Location = new System.Drawing.Point(52, 269);
             this.label132ee.Margin = new System.Windows.Forms.Padding(0);
             this.label132ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1827,7 +1748,8 @@ namespace KCK_Window_project
             // 
             // label131ee
             // 
-            this.label131ee.BackColor = System.Drawing.Color.LightGray;
+            this.label131ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label131ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label131ee.Location = new System.Drawing.Point(32, 269);
             this.label131ee.Margin = new System.Windows.Forms.Padding(0);
             this.label131ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1838,7 +1760,8 @@ namespace KCK_Window_project
             // 
             // label130ee
             // 
-            this.label130ee.BackColor = System.Drawing.Color.LightGray;
+            this.label130ee.BackColor = System.Drawing.Color.DarkOrange;
+            this.label130ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label130ee.Location = new System.Drawing.Point(12, 269);
             this.label130ee.Margin = new System.Windows.Forms.Padding(0);
             this.label130ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1849,8 +1772,7 @@ namespace KCK_Window_project
             // 
             // label149ee
             // 
-            this.label149ee.BackColor = System.Drawing.Color.LightGray;
-            this.label149ee.Image = global::KCK_Window_project.Properties.Resources.stone_phase1;
+            this.label149ee.BackColor = System.Drawing.Color.OrangeRed;
             this.label149ee.Location = new System.Drawing.Point(192, 289);
             this.label149ee.Margin = new System.Windows.Forms.Padding(0);
             this.label149ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1861,9 +1783,8 @@ namespace KCK_Window_project
             // 
             // label148ee
             // 
-            this.label148ee.BackColor = System.Drawing.Color.Silver;
-            this.label148ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label148ee.Location = new System.Drawing.Point(172, 289);
+            this.label148ee.BackColor = System.Drawing.Color.OrangeRed;
+            this.label148ee.Location = new System.Drawing.Point(170, 289);
             this.label148ee.Margin = new System.Windows.Forms.Padding(0);
             this.label148ee.MinimumSize = new System.Drawing.Size(20, 20);
             this.label148ee.Name = "label148ee";
@@ -1873,7 +1794,7 @@ namespace KCK_Window_project
             // 
             // label147ee
             // 
-            this.label147ee.BackColor = System.Drawing.Color.LightGray;
+            this.label147ee.BackColor = System.Drawing.Color.OrangeRed;
             this.label147ee.Location = new System.Drawing.Point(152, 289);
             this.label147ee.Margin = new System.Windows.Forms.Padding(0);
             this.label147ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1884,7 +1805,7 @@ namespace KCK_Window_project
             // 
             // label146ee
             // 
-            this.label146ee.BackColor = System.Drawing.Color.LightGray;
+            this.label146ee.BackColor = System.Drawing.Color.OrangeRed;
             this.label146ee.Location = new System.Drawing.Point(132, 289);
             this.label146ee.Margin = new System.Windows.Forms.Padding(0);
             this.label146ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1895,7 +1816,7 @@ namespace KCK_Window_project
             // 
             // label145ee
             // 
-            this.label145ee.BackColor = System.Drawing.Color.LightGray;
+            this.label145ee.BackColor = System.Drawing.Color.OrangeRed;
             this.label145ee.Location = new System.Drawing.Point(112, 289);
             this.label145ee.Margin = new System.Windows.Forms.Padding(0);
             this.label145ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1906,7 +1827,7 @@ namespace KCK_Window_project
             // 
             // label144ee
             // 
-            this.label144ee.BackColor = System.Drawing.Color.LightGray;
+            this.label144ee.BackColor = System.Drawing.Color.OrangeRed;
             this.label144ee.Location = new System.Drawing.Point(92, 289);
             this.label144ee.Margin = new System.Windows.Forms.Padding(0);
             this.label144ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1917,7 +1838,7 @@ namespace KCK_Window_project
             // 
             // label143ee
             // 
-            this.label143ee.BackColor = System.Drawing.Color.LightGray;
+            this.label143ee.BackColor = System.Drawing.Color.OrangeRed;
             this.label143ee.Location = new System.Drawing.Point(72, 289);
             this.label143ee.Margin = new System.Windows.Forms.Padding(0);
             this.label143ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1928,7 +1849,7 @@ namespace KCK_Window_project
             // 
             // label142ee
             // 
-            this.label142ee.BackColor = System.Drawing.Color.LightGray;
+            this.label142ee.BackColor = System.Drawing.Color.OrangeRed;
             this.label142ee.Location = new System.Drawing.Point(52, 289);
             this.label142ee.Margin = new System.Windows.Forms.Padding(0);
             this.label142ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1939,8 +1860,7 @@ namespace KCK_Window_project
             // 
             // label141ee
             // 
-            this.label141ee.BackColor = System.Drawing.Color.Silver;
-            this.label141ee.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label141ee.BackColor = System.Drawing.Color.OrangeRed;
             this.label141ee.Location = new System.Drawing.Point(32, 289);
             this.label141ee.Margin = new System.Windows.Forms.Padding(0);
             this.label141ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1951,8 +1871,7 @@ namespace KCK_Window_project
             // 
             // label140ee
             // 
-            this.label140ee.BackColor = System.Drawing.Color.LightGray;
-            this.label140ee.Image = global::KCK_Window_project.Properties.Resources.wood_phase1;
+            this.label140ee.BackColor = System.Drawing.Color.OrangeRed;
             this.label140ee.Location = new System.Drawing.Point(12, 289);
             this.label140ee.Margin = new System.Windows.Forms.Padding(0);
             this.label140ee.MinimumSize = new System.Drawing.Size(20, 20);
@@ -1960,51 +1879,6 @@ namespace KCK_Window_project
             this.label140ee.Size = new System.Drawing.Size(20, 20);
             this.label140ee.TabIndex = 140;
             this.label140ee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelWood
-            // 
-            this.labelWood.AutoSize = true;
-            this.labelWood.Location = new System.Drawing.Point(403, 69);
-            this.labelWood.Name = "labelWood";
-            this.labelWood.Size = new System.Drawing.Size(41, 13);
-            this.labelWood.TabIndex = 165;
-            this.labelWood.Text = "label12";
-            // 
-            // labelStone
-            // 
-            this.labelStone.AutoSize = true;
-            this.labelStone.Location = new System.Drawing.Point(403, 109);
-            this.labelStone.Name = "labelStone";
-            this.labelStone.Size = new System.Drawing.Size(41, 13);
-            this.labelStone.TabIndex = 166;
-            this.labelStone.Text = "label12";
-            // 
-            // labelScore
-            // 
-            this.labelScore.AutoSize = true;
-            this.labelScore.Location = new System.Drawing.Point(403, 249);
-            this.labelScore.Name = "labelScore";
-            this.labelScore.Size = new System.Drawing.Size(41, 13);
-            this.labelScore.TabIndex = 167;
-            this.labelScore.Text = "label12";
-            // 
-            // labelHP
-            // 
-            this.labelHP.AutoSize = true;
-            this.labelHP.Location = new System.Drawing.Point(403, 149);
-            this.labelHP.Name = "labelHP";
-            this.labelHP.Size = new System.Drawing.Size(41, 13);
-            this.labelHP.TabIndex = 168;
-            this.labelHP.Text = "label12";
-            // 
-            // labelInfo
-            // 
-            this.labelInfo.AutoSize = true;
-            this.labelInfo.Location = new System.Drawing.Point(12, 328);
-            this.labelInfo.Name = "labelInfo";
-            this.labelInfo.Size = new System.Drawing.Size(209, 13);
-            this.labelInfo.TabIndex = 169;
-            this.labelInfo.Text = "Dźwięki mogą być głośne, uwaga na uszy!";
             // 
             // labelControls1
             // 
@@ -2015,27 +1889,12 @@ namespace KCK_Window_project
             this.labelControls1.TabIndex = 170;
             this.labelControls1.Text = "Strzałki - poruszanie się";
             // 
-            // labelControls2
-            // 
-            this.labelControls2.AutoSize = true;
-            this.labelControls2.Location = new System.Drawing.Point(12, 370);
-            this.labelControls2.Name = "labelControls2";
-            this.labelControls2.Size = new System.Drawing.Size(87, 13);
-            this.labelControls2.TabIndex = 171;
-            this.labelControls2.Text = "Enter - interakcja";
-            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.labelControls2);
+            this.ClientSize = new System.Drawing.Size(248, 389);
             this.Controls.Add(this.labelControls1);
-            this.Controls.Add(this.labelInfo);
-            this.Controls.Add(this.labelHP);
-            this.Controls.Add(this.labelScore);
-            this.Controls.Add(this.labelStone);
-            this.Controls.Add(this.labelWood);
             this.Controls.Add(this.label149ee);
             this.Controls.Add(this.label148ee);
             this.Controls.Add(this.label147ee);
@@ -2189,7 +2048,7 @@ namespace KCK_Window_project
             this.KeyPreview = true;
             this.Name = "Game";
             this.Text = "Game";
-            this.Load += new System.EventHandler(this.Game_Load);
+            this.Load += new System.EventHandler(this.GameLoad);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Game_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -2348,13 +2207,7 @@ namespace KCK_Window_project
         private System.Windows.Forms.Label label142ee;
         private System.Windows.Forms.Label label141ee;
         private System.Windows.Forms.Label label140ee;
-        private System.Windows.Forms.Label labelWood;
-        private System.Windows.Forms.Label labelStone;
-        private System.Windows.Forms.Label labelScore;
-        private System.Windows.Forms.Label labelHP;
-        private System.Windows.Forms.Label labelInfo;
         private System.Windows.Forms.Label labelControls1;
-        private System.Windows.Forms.Label labelControls2;
     }
 }
 

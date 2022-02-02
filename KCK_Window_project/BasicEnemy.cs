@@ -6,20 +6,19 @@ using System.Threading.Tasks;
 
 namespace KCK_Window_project
 {
+    enum HorizontalDirection
+    {
+        RIGHT,
+        LEFT
+    }
     class BasicEnemy : Enemy
     {
+
+        private HorizontalDirection direction = HorizontalDirection.RIGHT;
+        
         /* Konstruktor */
-        public BasicEnemy()
+        public BasicEnemy(int posX, int posY) : base(posX, posY)
         {
-            hp = 150;
-            dmg = 10;
-            speed = 1;
-
-            Random rnd = new Random();
-            posX = rnd.Next(10);
-            posY = 0;
-
-            justCreated = true;
             enemyType = "basic";
         }
 
@@ -27,6 +26,29 @@ namespace KCK_Window_project
         public override Enemy Clone()
         {
             return this.MemberwiseClone() as Enemy;
+        }
+
+        public override void Move()
+        {
+            // Sprawdź czy trzeba zmienić kierunek
+            if (this.direction == HorizontalDirection.RIGHT && this.posX + SPEED >= 9)
+            {
+                this.direction = HorizontalDirection.LEFT;
+            }
+            if (this.direction == HorizontalDirection.LEFT && this.posX - SPEED <= 0)
+            {
+                this.direction = HorizontalDirection.RIGHT;
+            }
+
+            //Porusz się
+            if (this.direction == HorizontalDirection.RIGHT)
+            {
+                this.posX += SPEED;
+            }
+            else
+            {
+                this.posX -= SPEED;
+            }
         }
     }
 }

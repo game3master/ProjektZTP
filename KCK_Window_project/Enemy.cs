@@ -8,14 +8,11 @@ namespace KCK_Window_project
 {
     public abstract class Enemy
     {
-        protected int hp;
-        protected int dmg;
-        protected int speed;
+        protected const int SPEED = 1;
 
         protected int posX;
         protected int posY;
 
-        protected bool justCreated;
         protected string enemyType;
 
         /* Gettery */
@@ -27,28 +24,18 @@ namespace KCK_Window_project
         {
             return posY;
         }
-        public int GetDmg()
-        {
-            return dmg;
-        }
-        public int GetHP()
-        {
-            return hp;
-        }
-        public bool GetStatus()
-        {
-            return justCreated;
-        }
         public string GetEnemyType()
         {
             return enemyType;
         }
 
-        /* Settery */
-        public void SetHP(int hp)
+        public Enemy(int posX, int posY)
         {
-            this.hp = hp;
+            this.posX = posX;
+            this.posY = posY;
         }
+
+        /* Settery */
         public void SetX(int posX)
         {
             this.posX = posX;
@@ -60,28 +47,7 @@ namespace KCK_Window_project
 
         /* Metody */
         // Poruszanie sie przeciwnika.
-        public void Move()
-        {
-            // Jezeli wyszedlby za sciane.
-            if (posY + speed >= 10)
-                return;
-            // Jezeli przed nim stoi inny przeciwnik.
-            if (GameBoard.board[posY + speed, posX] != '.')
-                return;
-            posY += speed;
-        }
-
-        // Otrzymanie obrazen.
-        public void Hit(int dmg)
-        {
-            hp -= dmg;
-        }
-
-        // Metoda potrzebna by przeciwnik po stworzeniu nie ruszyl sie odrazu.
-        public void ChangeStatus()
-        {
-            justCreated = false;
-        }
+        public abstract void Move();
 
         // Klonowanie.
         public abstract Enemy Clone();
